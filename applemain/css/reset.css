@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+body, ul, li, a, p, h1, h2, h3, h4, h5, div, span, ol, table, nav, header,
+section, article, aside,button, input, form, select, option, label
+{
+   margin:0;
+   padding:0;
+}
+li {
+   list-style: none;
+}
+a {
+   text-decoration: none;
+}
