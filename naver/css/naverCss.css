@@ -1,0 +1,2724 @@
+body
+									{
+										background-color:#323237;
+									}
+
+div#wrap
+									{
+										width:100%;
+										background-color:#323237;
+										color:#e0e0e0;
+										margin:0 auto;
+									}
+
+@media screen and (max-width: 1080px){
+div#wrap
+									{
+										width:1100px;
+									}
+								}
+    /* 공통 */
+.contWrap
+            					{
+										width:1080px; 
+										margin:0 auto;
+									}
+
+.fr
+            					{
+										overflow:hidden;
+									}
+
+	/* 헤더 */
+header#index-h
+									{
+										width:100%; 
+										position:relative;
+										box-shadow:0 0px 5px rgba(0,0,0,0.5);	
+									}
+
+header#index-h .contWrap
+									{
+										position:relative;
+									}
+
+header#index-h::after 				
+									{
+										content:""; 
+									 	display:table;
+									 	clear:both;
+									}									
+
+#index-h h1#logo
+									{
+										width:210px; 
+										height:170px;
+										margin-right:10px;
+										float:left; 
+										position:relative;
+										transition:0.7s;
+									}
+
+#index-h h1#logo img.logoimg 	   
+									{
+									 	display:block;
+									 	width:210px;
+									 	height:170px;
+									 	position:absolute;
+									 	left:0;
+									 	top:0;
+									}
+
+#logo a.hiddenImg
+									{
+										width:210px; 
+										height:170px;
+									 	position:absolute;
+									 	z-index:1;
+									 	left:0; 
+										opacity:0;
+									}
+
+#logo a.hiddenImg:hover 
+									{
+										opacity:1;
+										transition:1s; 
+									}
+
+#logo img.logoimg:hover		
+									{
+										opacity:0;
+									}
+
+#index-h form#searchbar 
+									{
+										width:580px; 
+										height:170px;
+									 	margin-right:10px;
+									 	float:left;
+										position:relative;
+									}
+#searchbar input#search
+									{
+										display:block; 
+										width:430px; 
+										height:25px;
+									 	border:none;
+									 	padding: 10px 20px;
+									 	background-color: #26272c;
+									 	position:absolute;
+										left:0; 
+										top:61px;
+									 	color:aliceblue;
+										font-size:16px;
+									}
+
+#searchbar button#searchBt
+									{
+										width:47px; 
+										height:45px;		
+									 	border:none;
+									 	position:absolute;
+									 	background-color:#26272c;
+									 	box-shadow:-4px 0 3px 0px rgba(0,0,0,0.2);
+										left:470px; 
+										top:61px;
+									}
+
+div.h-top3
+									{
+										width:270px; 
+										height:170px;
+										float:left;
+									}
+
+.h-top3 a#startpage
+									{
+										display:block; 
+										float:left;
+										width:120px; 
+										height:21px;
+										margin-top:11.5px;
+									}
+
+.h-top3 a#startpage::after
+									{
+										display:table;
+									 	content:"";
+										clear:both;
+									}
+
+a#startpage h5.stText
+									{
+										float:right;
+										width:120px; 
+										height:20px;
+									 	font-size:11px; 
+									 	text-align:center;
+										line-height:20px;
+									}
+
+a#startpage h5.stText:hover
+									{
+										text-decoration:underline;
+									}									
+
+.h-top3 div.hamburger
+									{
+										width:20px;
+										height:21px;
+									 	float:left;
+									 	margin-top:10px;
+									 	line-height: 20px;
+										text-align:center;
+									}
+
+.h-top3 div.hamburger div.mini-ham
+								   {
+										width:1px; 
+										height:8px;
+										display:inline-block;
+										background-color:rgba(214, 214, 214, 0.4);
+									}
+
+.h-top3 div.h-top3-son
+									{
+										width:112px; 
+										height:21px;
+									 	margin-top:10px;
+										float:left;
+									}
+			
+.h-top3-son a.juniver
+									{
+										display:block;
+									 	width:68px;
+										height:21px;
+										float:left;
+										position:relative;
+									}
+
+.h-top3-son .juniver img.jImg01 
+									{
+										display:none;
+										width:68px;
+										height:21px;
+										position:absolute;
+										left:0;
+										top:0;
+									}
+									
+.h-top3-son .juniver img.jImg02 
+									{
+										display:block;
+										width:68px;
+										height:21px;
+										position:absolute;
+										left:0;
+										top:0;
+										opacity:0.6;
+									}	
+			
+.h-top3-son a.juniver:hover .jImg01
+									{
+										display:block;
+									}
+									
+.h-top3-son a.juniver:hover .jImg02
+									{
+										display:none;
+									}									
+
+.h-top3-son a.happyBeen
+									{
+										display:block;
+										width:44px;
+										height:21px;
+										float:left;
+										position:relative;
+									}		
+									
+.h-top3-son a.happyBeen img.hbImg01
+									{
+										display:none;
+										width:44px;
+										height:21px;
+										position:absolute;
+										left:0;
+										top:0;
+										opacity:0.6;
+									}	
+									
+.h-top3-son a.happyBeen img.hbImg02
+									{
+										display:block;
+										width:44px;
+										height:21px;
+										position:absolute;
+										left:0;
+										top:0;
+									}	
+									
+.h-top3-son a.happyBeen:hover .hbImg01
+									{
+										display:block;
+									}									
+									
+.h-top3-son a.happyBeen:hover .hbImg02
+									{
+										display:none;
+									}									
+									
+
+		/* 메뉴바 */
+div#h-bottom
+									{
+										width:100%; 
+										height:47px;
+									 	box-sizing:border-box;
+										 position:relative;
+									}
+
+#h-bottom nav#gnb
+									{
+										width:791px; 
+									 	height:47px;
+									 	float:left; 
+										position:relative;
+									}
+
+nav#gnb div.menubar
+									{
+										width:693px;
+									}
+
+.menubar ul.nav-left
+									{
+										width:330px; 
+										height:47px;
+										 float:left; 
+									}
+
+.menubar	.nav-left li
+									{
+										float:left; 
+										margin-right:14px; 
+									}
+
+.menubar	.nav-left li:first-child
+									{
+										margin-left:3px;
+									}
+
+.menubar	.nav-left li a
+									{
+										display:block;
+									 	color:#50c3af; 
+									 	font-size:15px;
+									 	font-weight:bold; 
+										line-height:47px;
+									}
+
+@media screen and (max-width: 1080px){
+	.nav-left li a
+									{
+										letter-spacing:-1px;	
+									}
+	.nav-right li a
+									{
+										letter-spacing:-1px;
+									}								
+								}									
+
+.menubar .nav-left li a:hover
+									{
+										color:#3b8b7d;
+									}
+
+.menubar ul.nav-right
+									{
+										width:338px; 
+										height:47px;
+										 float:left;
+									}
+
+.menubar	.nav-right li
+									{
+										float:left; 
+										margin-right:14px;
+									}
+
+.menubar	.nav-right li:last-child
+									{
+										margin-right:0px;
+									}
+
+.menubar	.nav-right li a
+									{
+										display:block;
+									 	color:#e0e0e0; 
+									 	font-size:15px;
+									 	font-weight:bold;
+										line-height:47px; 
+									}
+
+.menubar .nav-right li a:hover
+									{
+										color:#a8a8a8;
+									}
+
+#gnb div.hamburger			
+									{
+										float:left;
+										width:28px; 
+										height:47px;
+									 	margin-right:14px;
+									 	line-height:47px;
+										text-align:center;
+									}
+
+#gnb .hamburger div.miniham
+									{
+										width:2px; 
+										height:10px;
+										display:inline-block;
+										background-color:rgba(214, 214, 214, 0.4);
+									}	
+
+#gnb div.menu-more
+									{
+										width:70px; height:47px;
+									  	display:block; 
+									  	float:left;
+										position: relative;
+									}
+
+#gnb div.dropBtn			
+									{
+										position:absolute;
+									 	left:0px;
+										width:70px;
+									}	
+
+#gnb div.dropBtn div.text-more
+									{
+										width:50px; 
+										height:47px;
+										float:left;
+										font-size:15px;
+										font-weight:bold;
+										line-height:47px;
+									}
+
+#gnb div.menu-more img 		
+									{
+										display:block;
+										width:20px; 
+										height:47px;
+									 	float:left;
+										right:0;
+									}									  
+
+#gnb .menu-more div.dropdwCont
+									{
+										display:none; 
+										position: absolute;
+										top:47px;
+										left:-1130px;
+									   z-index:3;
+										width:1920px;
+										height:310px;
+										padding:15px 0;
+										background-color:#323237;
+										border-top:1px solid #26272c;
+										border-bottom:1px solid #26272c;
+									}
+
+#gnb .menu-more div.dropdwCont .service
+									{
+										width:153px;
+										height:290px;
+										padding:10px 0;
+										margin-right:1px;
+										float:left;
+										background-color:#26272c;
+										box-shadow:0 0 3px rgba(0,0,0,0.7) inset;
+									}
+									
+#gnb .menu-more div.dropdwCont .service h4
+									{
+										width:140px;
+										height:30px;
+										text-align:left;
+										line-height:16px;
+										margin-left:10px;
+										font-size:14px;
+										font-weight:normal;
+									}
+									
+#gnb .menu-more div.dropdwCont .service ul
+									{
+										width:140px;
+										margin-left:10px;
+									}									
+									
+#gnb .menu-more .dropdwCont .service ul a
+									{
+										display:block;
+										font-size:12px;
+										height:22px;
+										color:#ccc;
+										line-height:22px;
+										text-align:left;
+									}
+
+#gnb .menu-more .dropdwCont .service ul a.diction
+									{
+										color:#a8a8a8;
+									}									
+
+#gnb .menu-more .dropdwCont a:hover
+									{
+										text-decoration:underline;
+									}
+
+#gnb .menu-more:hover .dropdwCont 
+									{
+										display:block;
+									}
+									
+#h-bottom div.popSearch     
+									{
+									 	width:200px; height:47px;
+										float:right;
+										position:relative;
+									}
+
+#h-bottom .popSearch .dropBtn
+									{
+									  	width:180px; height:47px;
+									  	position:absolute;
+									  	right:0px;
+									  	top:1px; 
+									}
+.popSearch .dropBtn h3		
+									{
+										width:20px; 
+										height:47px;
+									  	font-size:16px;
+									  	font-weight:bold;
+									  	text-align:center;
+									  	line-height:47px;
+									  	color:#50c3af;
+										float:left;
+									}
+.popSearch .dropBtn p		
+									{
+									  	width:140px;
+										height:47px;
+										padding-left:10px;
+									  	font-size:15px;
+									  	line-height:47px;
+									  	text-align:left;
+									  	float:left;
+									}
+.popSearch .dropBtn img		
+									{
+									  	display:block;
+									  	width:10px;
+									  	height:47px;
+									  	float:left;
+									}
+									/* 실시간 인기검색어 */
+.popSearch .dropdwCont  	 
+									{
+									  	display:none;
+										width:254px;
+										height:332px;
+									  	border:1px solid #26272c;
+									  	position:absolute;
+									  	right:0px;
+									  	top:0px;
+										z-index:3;
+										padding:0 15px 0 15px;
+									}
+
+.popSearch .dropdwCont .drop-top
+									{
+										width:254px;
+										height:45px;
+									}	
+									
+.popSearch .dropdwCont .drop-top h3
+									{
+										width:118px;
+										height:45px;
+										text-align:left;
+										line-height:45px;
+										font-size:14px;
+										font-weight:normal;
+										color:#e0e0e0;
+										float:left;
+									}	
+
+.popSearch .dropdwCont .drop-top .datalab
+									{
+										width:136px;
+										height:45px;
+										float:right;
+									}
+
+.popSearch .dropdwCont .drop-top .datalab:hover p
+									{
+										text-decoration:underline;
+									}									
+
+.popSearch .dropdwCont .drop-top .datalab h4
+									{
+										width:60px;
+										height:45px;
+										line-height:45px;
+										text-align:right;
+										font-size:12px;
+										font-weight:normal;
+										float:left;
+										margin:0;
+										padding:0;
+									}
+
+.popSearch .dropdwCont .drop-top .datalab h4 b
+									{
+										font-weight:normal;
+										color:#11fc69;
+									}						
+
+.popSearch .dropdwCont .drop-top .datalab p
+									{
+										width:76px;
+										height:45px;
+										line-height:45px;
+										text-align:left;
+										font-size:11px;
+										font-weight:normal;
+										float:left;
+										margin:0;
+										padding:0;
+										color:#a8a8a8;
+									}
+
+.popSearch .dropdwCont .drop-middle
+									{
+										width:254px;
+										height:260px;
+									}
+
+.popSearch .dropdwCont .drop-middle .rankbar
+									{
+										width:254px;
+										height:15px;
+									}	
+									
+.popSearch .dropdwCont .drop-middle .rankbar .rank1
+									{
+										display:block;
+										width:127px;
+										height:25px;
+										line-height:25px;
+										text-align:center;
+										font-size:12px;
+										float:left;
+										background-color:#323237;
+										border:1px solid #26272c;
+										box-sizing:border-box;
+									}		
+									
+.popSearch .dropdwCont .drop-middle .rankbar .rank2
+									{
+										display:block;
+										width:127px;
+										height:25px;
+										line-height:25px;
+										text-align:center;
+										font-size:12px;
+										float:left;
+										background-color:#323237;
+										border:1px solid #26272c;
+										box-sizing:border-box;
+									}	
+									
+.popSearch .dropdwCont .drop-middle ul
+									{
+										width:254px;
+										height:220px;
+										padding:5px 0;
+										background-color:#26272c;
+										box-shadow:0 0 3px rgba(0,0,0,0.7);
+									}
+
+.popSearch .dropdwCont .drop-middle ul li
+									{
+										width:254px;
+										height:22px;
+									}									
+
+.popSearch .dropdwCont .drop-middle ul li h5
+									{
+										width:30px;
+										height:22px;
+										line-height:22px;
+										text-align:left;
+										float:left;
+										font-size:12px;
+										font-weight:normal;
+									}
+
+.popSearch .dropdwCont .drop-middle ul li a
+									{
+										width:190px;
+										height:22px;
+										line-height:22px;
+										text-align:left;
+										float:left;
+										font-size:12px;
+										font-weight:normal;
+										color:#bbbbbb;
+									}
+
+.popSearch .dropdwCont .drop-middle ul li img
+									{
+										display:block;
+										float:right;
+										width:22px;
+										height:22px;
+									}
+
+.popSearch .dropdwCont .drop-bottom
+									{
+										width:254px;
+										height:32px;
+									}
+
+.popSearch .dropdwCont .drop-bottom p
+									{
+										margin-bottom:10px;
+										width:115px;
+										height:22px;
+										line-height:22px;
+										font-size:11px;
+										font-weight:normal;
+										color:#a8a8a8;
+										text-align:left;
+										float:left;
+									}		
+									
+.popSearch .dropdwCont .drop-bottom img
+									{
+										display:block;
+										float:left;
+										margin-bottom:10px;
+										width:22px;
+										height:22px;
+									}									
+
+									/* 실시간 검색어 호버 */
+.popSearch:hover .dropdwCont	
+									{
+										display:block;
+										background-color:#323237;
+									}
+
+.popSearch .dropdwCont a:hover
+									{
+										text-decoration:underline;
+									}
+
+/* 본문 */									 
+div#container					 
+									{
+										width:100%;
+									 	padding:10px 0;	
+										background-color:#26272c;
+									}
+
+									
+/*첫번째 줄*/
+#container .contWrap .c-1
+									{
+										width:1080px;
+									}
+#container .contWrap .c-1::after
+									{
+										content:"";
+										display:table;
+										clear:both;
+									}									 
+
+/* 메인 배너 */
+#container #mainBanner	   
+									{
+									 	width:740px;
+									 	height:120px;
+									 	margin-right:8px;
+									 	float:left;
+									 	background-color:#323237; 
+									}
+
+#mainBanner img
+									{
+									 	display:block;
+									 	width:740px;
+									 	height:120px;
+									}
+
+									/* 로그인 */
+#container section#login
+									{
+									 	width:332px;
+									 	height:120px;
+									 	float:left;
+									 	background:#323237;
+									 	border-radius:7px;
+									 	box-sizing:border-box;
+									 	transition:box-shadow 1s;
+									 	transition-timing-function:ease-out;
+									}
+
+#login:hover		
+									{
+										box-shadow:0 0 10px #50c3af;
+									}									
+									
+									
+section#login div.blank
+									{
+										width:280px;
+										height:120px;
+									 	margin:0px 26px;
+									}
+section#login .blank p.loginEx		
+									{
+									 	display:block;
+									 	font-size:12px;
+									 	color:#e0e0e0;
+									 	height:41px;
+									 	line-height:41px;
+									 	font-weight:normal;
+									}
+
+section#login .blank a		
+									{
+									 	display:block;
+									 	font-size:12px;
+									 	color:#e0e0e0;
+									 	height:41px;
+									 	line-height:41px;
+									 	font-weight:normal;
+									}
+
+section#login .blank a:hover
+									{
+										text-decoration:underline;
+									}
+
+
+section#login .blank a.id-s
+									{
+									 	float:left;
+									 	width:140px;
+									 	text-align:left;
+									}
+section#login .blank a.join
+									{
+									 	float:left;
+									 	width:140px;
+									 	text-align:right;
+									}	
+
+section#login .blank a.loginBt
+									{
+									 	width:280px;
+									 	height:38px;
+									 	background-color:#50c3af;
+									 	color:aliceblue;
+									 	border-radius:3px;
+									 	box-shadow:0 0 4px rgba(0,0,0,0.2);
+									}
+
+section#login .blank a.loginBt:hover
+									{
+										opacity:0.8;
+									}									
+
+section#login .blank a.loginBt::after	
+									{
+									 	content:"";
+									 	display:table;
+									 	clear:both;
+									}
+
+section#login .blank a.loginBt h3
+									{
+									 	width:140px;
+									 	height:38px;
+									 	font-size:18px;
+									 	font-weight:bold;
+									 	text-align:right;
+									 	line-height:38px;
+									 	float:left;
+									}
+
+section#login .blank a.loginBt h4
+									{
+									 	width:135px;
+									 	height:38px;
+									 	font-size:17px;
+									 	font-weight:bold;
+									 	text-align:left;
+									 	line-height:38px;
+									 	float:right;
+									}																		
+
+									/*뉴스*/
+#container .contWrap div.c-2
+									{
+									 	width:1080px;
+									 	margin-top:8px;	
+									}									
+									 
+#container .contWrap div.c-2::after
+									{
+										content:"";
+										display:table;
+										clear:both;
+									}
+
+#container .contWrap .c-2 .c-2-l
+									{
+										width:740px;
+										height:300px;
+										float:left;
+										margin-right:8px;
+									}		
+									
+									/* 뉴스바 */
+#container .c-2-l section#newsBar
+									{
+										width:740px;
+										height:46px;
+										background-color:#323237;
+										transition:box-shadow 1s;
+										transition-timing-function:ease-out;
+									}
+
+#container .c-2-l section#newsBar:hover
+									{
+										box-shadow:0 0 10px #50c3af;
+									}
+
+#container .c-2-l section#newsBar div a:hover
+									{
+										text-decoration:underline;	
+									}
+
+#container .c-2-l #newsBar div.nb-1
+									{
+										float:left;
+										width:100px;
+										height:46px;
+									}
+
+#container .c-2-l #newsBar div.nb-1 h3
+									{
+										height:46px;
+										font-size:14px;
+										color:#e0e0e0;
+										font-weight:normal;
+										text-align:center;
+										line-height:46px;
+									}
+									
+#container .c-2-l #newsBar div.nb-2
+									{
+										float:left;
+										width:415px;
+										height:46px;
+									}
+									
+#container .c-2-l #newsBar div.nb-2 a p
+									{
+										width:395px;
+										margin:10px 0px;
+										padding:0 10px;
+										height:26px;
+										text-align:left;
+										line-height:26px;
+										font-size:12px;
+										color:#ccc;
+										background-color:#26272c;
+										box-shadow:0 0 2px #000 inset;
+									}		
+									
+#container .c-2-l #newsBar div.nb-3
+									{
+										width:205px;
+										height:46px;
+										padding-left:15px;
+										float:right;
+									}	
+									
+#container .c-2-l #newsBar div.nb-3 a
+									{
+									   display:inline-block;
+										margin-right:10px;
+									}
+
+#container .c-2-l #newsBar div.nb-3 a h4
+									{
+										font-size:13px;
+										height:46px;
+										line-height:46px;
+										color:#e0e0e0;
+										font-weight:normal;
+									}									
+
+				
+									/* 뉴스 메뉴 수정을 해야함 */
+#container .c-2-l section#newsMenu
+									{
+										margin-top:8px;
+										width:740px;
+										height:246px;
+										background-color:#323237;
+										transition:box-shadow 1s;
+										transition-timing-function:ease-out;
+									}
+
+#container .c-2-l section#newsMenu:hover
+									{
+										box-shadow:0 0 10px #50c3af;
+									}									
+
+									/* 뉴스 메뉴 첫번째 줄 */
+#newsMenu div.nm-top 
+									{
+										width:740px;
+										height:45px;
+										box-shadow:0 0 3px rgba(0,0,0,0.5);
+									}
+								
+#newsMenu .nm-top .n-t-1
+									{
+										width:492px;
+										height:45px;
+										float:left;
+										padding-left:18px
+									}
+
+#newsMenu .nm-top .n-t-1 a
+									{
+										display:block;
+										height:45px;
+										line-height:45px;
+										font-size:14px;
+										float:left;
+									}
+
+#newsMenu .nm-top .n-t-1 a.newsSt
+									{
+										margin-right:15px;
+									}									
+								
+#newsMenu .nm-top .n-t-1 a.myNews
+									{
+										color:#bbbbbb;
+									}
+
+#newsMenu .nm-top .n-t-1 a.myNews:hover
+									{
+										color:#e0e0e0;
+									}
+									
+#newsMenu .nm-top .n-t-1 div.miniham
+									{
+										width:1px;
+										height:11px;
+										margin:17.5px 15px;
+										float:left;
+										background-color:#666;
+									}
+
+#newsMenu .nm-top .n-t-2   
+									{
+										width:230px;
+										height:45px;
+										float:left;
+									}
+									
+#newsMenu .nm-top .n-t-2 a
+									{
+										display:block;
+										width:45px;
+										height:45px;
+										overflow:hidden;
+										float:left;
+										margin-right:1px;
+										position:relative;
+									}
+
+#newsMenu .nm-top .n-t-2 a img
+									{
+										position:absolute;
+										left:0;
+										top:0;
+									}	
+
+#newsMenu .nm-top .n-t-2 a img.non 
+									{
+										opacity:0.2;
+									}	
+									
+#newsMenu .nm-top .n-t-2 a.icon3 img.non
+									{
+										opacity:1;
+									}
+								
+#newsMenu .nm-top .n-t-2 a img.over 
+									{
+										z-index:1;
+										opacity:0;
+									}
+									
+#newsMenu .nm-top .n-t-2 a:hover img.over 
+									{
+										opacity:1;
+									}	
+									
+#newsMenu .nm-top .n-t-2 a:hover img.non 
+									{
+										opacity:0;
+									}									
+
+#newsMenu .nm-top .n-t-2 .nbt-1
+									{
+										width:45px;
+										height:45px;
+										background-color:#323237;
+										text-align:center;
+										line-height:45px;
+										font-size:14px;
+										transition:box-shadow 0.2;
+										float:left;
+										border:none;
+										color:#e0e0e0;
+									}
+
+#newsMenu .nm-top .n-t-2 .nbt-1:hover
+									{
+										box-shadow:0 0 2px rgba(0,0,0,0.7);
+									}
+									
+#newsMenu .nm-top .n-t-2 .nbt-2
+									{
+										width:45px;
+										height:45px;
+										background-color:#323237;
+										text-align:center;
+										line-height:45px;
+										font-size:14px;
+										transition:box-shadow 0.2;
+										float:right;
+										margin-right:0px;
+										border:none;
+										color:#e0e0e0;
+									}
+
+
+#newsMenu .nm-top .n-t-2 .nbt-2:hover
+									{
+										box-shadow:0 0 2px rgba(0,0,0,0.7);
+									}
+									
+#newsMenu .nm-bottom
+									{
+										width:740px;
+										height:201px;
+									}	
+									
+									/* 뉴스 가판대 본문 */
+		
+.nc-1
+									{
+										width:740px;
+										height:67px;
+										border-bottom:1px solid #26272c;
+										box-sizing:border-box;
+										overflow:hidden;
+									}
+									
+.nc-2
+									{
+										width:740px;
+										height:67px;
+										border-bottom:1px solid #26272c;
+										box-sizing:border-box;
+										overflow:hidden;
+									}
+									
+.nc-3
+									{
+										width:740px;
+										height:67px;
+										overflow:hidden;
+									}									
+									
+#newsMenu .nm-bottom div.newsConts
+									{
+										width:123px;
+										height:67px;
+										float:left;
+										position:relative;
+										overflow:hidden;
+									}	
+
+#newsMenu .nm-bottom .newsConts .n-cont
+									{
+										width:98px;
+										height:51px;
+										position:absolute;
+										z-index:1;
+										left:11.5px;
+										top:14.5px;
+										background-color:#fff;
+										transform:translatey(0px);
+										transition:transform 0.2s;
+										transition-timing-function:ease-out;
+										border-top-right-radius:7px;
+										border:1px solid #a8a8a8;
+									}
+
+#newsMenu .nm-bottom .newsConts:hover .n-cont
+									{
+										transform:translatey(32px);
+									}									
+
+#newsMenu .nm-bottom .sub-view
+									{
+										width:96px;
+										height:22px;
+										position:absolute;
+										left:13.5px;
+										top:21px;
+										border:1px solid #666;
+									}	
+									
+#newsMenu .nm-bottom .sub-view a
+									{
+										float:left;
+										font-size:12px;
+									}	
+								
+#newsMenu .nm-bottom .sub 
+									{
+										width:36px;
+										height:22px;
+										text-align:center;
+										line-height:22px;
+										background-color:#26272c;
+								
+									}
+									
+#newsMenu .nm-bottom .view 
+									{
+										width:57px;
+										height:22px;
+										text-align:center;
+										line-height:22px;
+										background-color:#26272c;
+										border-left:1px solid #666;
+									}
+									
+
+#newsMenu .nm-bottom div.newsConts .newsImg
+									{
+
+										width:98px;
+										height:25px;
+										overflow:hidden;
+										border-bottom:2px solid #ffd50f;
+										box-sizing:border-box;
+										margin:0px;
+										border-top-right-radius:7px;
+										
+									}									
+									
+#newsMenu .nm-bottom .newsConts .n-cont .paper
+									{
+										width:98px;
+										height:26px;
+										background-color:#fff;
+										margin:0;
+									}
+
+#newsMenu .n-cont .paper .p-l
+									{
+										width:36px;
+										height:20px;
+										float:left;
+										margin:3px 8px;
+										border:2px solid #666;
+										box-sizing:border-box;
+										border-radius:2px;
+										background-color:#333;
+									}	
+									
+#newsMenu .n-cont .paper .p-r
+									{
+										width:44px;
+										height:26px;
+										float:left;
+									}
+							
+#newsMenu	.nm-bottom .n-cont .paper .n-ham
+									{
+										width:40px;
+										height:2px;
+										background-color:#666;
+										margin:5px 0;
+										border-radius:1px;
+									}
+
+#newsMenu	.nm-bottom .n-cont .paper .n-mini
+									{
+										width:40px;
+										height:2px;
+										background-color:#666;
+										margin-bottom:5px;
+										border-radius:1px;
+									}	
+
+#newsMenu	.nm-bottom .n-cont .paper .n-mini2
+									{
+										width:40px;
+										height:2px;
+										background-color:#666;
+										border-radius:1px;
+									}
+									
+									/* 두번째 줄 오른쪽 */
+
+#container .contWrap .c-2 .c-2-r
+									{
+										width:332px;
+										height:300px;
+										float:left;
+									}						
+									
+										/* 날씨 */
+.c-2 .c-2-r section#weather 
+									{
+										width:332px;
+										height:142px;
+										background-color:#323237;
+										transition:box-shadow 1s;
+										transition-timing-function:ease-out;
+										font-size:12px;
+									}
+
+.c-2 .c-2-r #weather div.w-1
+									{
+										width:332px;
+										height:35px;
+										box-shadow:0 0 2px rgba(0,0,0,0.5);
+									}
+
+.c-2 .c-2-r #weather div.w-1::after
+									{
+										content:"";
+										display:table;
+										clear:both;
+									}									
+
+.c-2 .c-2-r #weather .w-1 .w-1-l	
+									{
+										width:262px;
+										height:35px;
+										float:left;
+									}								
+
+.c-2 .c-2-r #weather .w-1 .w-1-l a
+									{
+										float:left;
+									}
+									
+.c-2 .c-2-r #weather .w-1 .w-1-l a h4
+									{
+										height:35px;
+										margin-left:10px;
+										line-height:35px;
+										font-size:14px;
+										font-weight:normal;
+									}	
+
+.c-2 .c-2-r #weather .w-1 .w-1-l span
+									{
+										display:block;
+										width:1px;
+										height:11px;
+										margin:12px 10px 12px 10px;
+										background-color:#666;
+										float:left;
+									}	
+
+.c-2 .c-2-r #weather .w-1 .w-1-l p
+									{
+										width:45px;
+										height:35px;
+										text-align:right;
+										float:right;
+										padding-right:5px;
+										line-height:35px;
+									}									
+									
+.c-2 .c-2-r #weather .w-1 .w-1-l a p	
+									{
+										width:100px;
+										height:35px;
+										line-height:35px;
+										font-size:12px;
+										text-align:left;
+										color:#a8a8a8;
+									}
+
+.c-2 .c-2-r #weather .w-1 a .button1 
+									{
+										width:35px;
+										height:35px;
+										float:left;
+										line-height:35px;
+										transition:box-shadow 0.2s;
+										transition-timing-function:ease-out;
+										text-align:center;
+										font-size:15px;
+										
+									}									
+
+.c-2 .c-2-r #weather .w-1 a .button1:hover
+									{
+										box-shadow:0 0 2px rgba(0,0,0,0.7);
+										text-decoration:none;
+									}
+
+.c-2 .c-2-r #weather .w-1 a .button2 
+									{
+										width:35px;
+										height:35px;
+										float:left;
+										line-height:35px;
+										transition:box-shadow 0.2s;
+										transition-timing-function:ease-out;
+										text-align:center;
+										font-size:15px;
+									
+									}									
+
+.c-2 .c-2-r #weather .w-1 a .button2:hover
+									{
+										box-shadow:0 0 2px rgba(0,0,0,0.7);
+										text-decoration:none;
+									}	
+									
+.c-2 .c-2-r #weather .w-2 
+									{
+										width:310px;
+										height:56px;
+										padding:10px 0 0 22px;
+									}
+									
+.c-2 .c-2-r #weather .w-2 .w-2-l
+									{
+										width:138px;
+										height:56px;
+										float:left;
+									}
+							
+.c-2 .c-2-r #weather .w-2 .w-2-l a
+									{
+										display:block;
+										width:138px;
+										height:56px;
+										float:left;
+									}
+									
+#weather	.w-2 .w-2-l a img
+									{
+										display:block;
+										width:56px;
+										height:56px;
+										float:left;
+									}
+									
+#weather .w-2 .w-2-l a div.tem
+									{
+										width:60px;
+										height:56px;
+										margin:0 12px 0 10px;
+										float:left;
+										
+									}	
+
+#weather .w-2 .w-2-l a div.tem .do
+									{
+										width:58px;
+										padding-top:10px;
+										margin-bottom:2px;
+									}
+								
+#weather .w-2 .w-2-l a div.tem span.now
+									{
+										font-size:30px;
+										font-weight:normal;
+										line-height:85%;
+									}
+									
+#weather .w-2 .w-2-l a div.tem span.dodo
+									{
+										font-size:11px;
+										font-weight:normal;
+										vertical-align:top;
+									}	
+			
+#weather .w-2 .w-2-l	a div.tem span.min
+									{
+										display:block;
+										font-size:11px;
+										color:#03e1ff;
+										float:left;
+
+									}
+
+#weather .w-2 .w-2-l	a div.tem span.sl 
+									{
+										display:block;
+										font-size:11px;
+										margin-right:2px;
+										float:left;
+									}
+									
+#weather .w-2 .w-2-l	a div.tem span.max
+									{
+										display:block;
+										font-size:11px;
+										color:#ff5003;
+										float:left;
+									}
+
+#weather .w-2 .w-2-r 
+									{
+										width:144px;
+										height:43px;
+										padding-top:13px;
+										float:left;
+									}
+
+#weather .w-2 .w-2-r h3		
+									{
+										font-size:13px;
+										font-weight:normal;
+										margin:0 0 6px 0;
+									}	
+									
+#weather .w-2 .w-2-r h4
+									{
+										font-size:12px;
+										color:#ccc;
+									}	
+								
+#weather .w-2 .w-2-r h4 b	
+									{
+										color:#03e1ff;
+										font-weight:normal;
+									}
+									
+#weather .w-3
+									{
+										width:305px;
+										height:33px;
+										padding:12px 0 0 27px;
+									}	
+									
+#weather .w-3 a
+									{
+										font-size:12px;
+										display:inline-block;
+									}	
+								
+#weather .w-3 a.w-3-1
+									{
+										color:#03e1ff;
+										margin-right:3px;
+									}	
+
+#weather .w-3 a.w-3-3
+									{
+										background-color:#666;
+										width:1px;
+										height:8px;
+										margin:0 3px;
+									}
+
+#weather .w-3 a.w-3-4
+									{
+										color:#a8a8a8;
+									}									
+
+									/* 날씨 호버 */
+.c-2 .c-2-r section#weather:hover
+									{
+										box-shadow:0 0 10px #50c3af;
+									}									
+
+.c-2 .c-2-r section#weather a:hover
+									{
+										text-decoration:underline;
+									}
+
+.c-2 .c-2-r section#weather a:hover p
+									{
+										text-decoration:underline;
+									}									
+									
+.c-2 .c-2-r aside#subBanner-1
+									{
+										margin-top:8px;
+										width:332px;
+										height:150px;
+										background-color:#323237;
+									}	
+									
+									/* 세번째 줄 */
+#container .c-3																		
+									{
+										width:1080px;
+										margin-top:8px;
+									}
+
+#container .c-3::after		
+									{
+										content:"";
+										display:table;
+										clear:both;
+									}	
+									/* 메인 콘텐츠 */
+.c-3 section#mainCont 
+									{
+										width:740px;
+										height:884px;
+										margin-right:8px;
+										float:left;
+										background-color:#323237;
+										transition:box-shadow 1s;
+										transition-timing-function:ease-out;
+									}	
+									
+.c-3 section#mainCont:hover
+									{
+										box-shadow:0 0 10px #50c3af;
+									}
+
+#mainCont nav#mnb
+									{
+										width:740px;
+										height:45px;
+										box-shadow:0 0 2px rgba(0,0,0,0.7)
+										
+									}
+
+#mainCont nav#mnb::after
+									{
+										content:"";
+										display:table;
+										clear:both;
+									}
+
+#mnb div.hidden1
+									{
+										width:2px;
+										height:45px;
+										float:left;
+										background-color:#323237;
+										box-shadow:2px 0 5px rgba(0,0,0,0.7);
+									}										
+
+#mnb .hamburger				
+									{
+										
+										float:left;
+										margin-right:1px;
+										padding:16.5px 12.5px;
+										transition:box-shadow 0.2s;
+									}
+
+#mnb .hamburger:hover   
+									{
+										box-shadow:0 0 3px rgba(0,0,0,0.7);
+									}									
+
+#mnb .hamburger .mini-ham
+									{
+										width:19px;
+										height:2px;
+										border-radius:2px;
+										background-color:#e0e0e0;
+									}
+
+#mnb .hamburger .mini-ham:nth-child(2n)
+									{
+										margin:3px 0;
+									}									
+
+#mnb #menuBox
+									{
+										display:block;
+										width:598px;
+										height:45px;
+										float:left;
+										margin:0 1px;
+										overflow:hidden;
+										position:relative;
+									}									
+
+#mnb ul.menu 
+								   {
+										width:650px;
+										height:45px;
+										position:absolute;
+										z-index:1;
+										transform:translatex(-23px);
+									}
+
+#mnb ul.menu li
+									{
+										float:left;
+										display:block;
+										margin-right:20px;
+									}
+
+#mnb ul.menu li a				
+									{
+										font-size:14px;
+										font-weight:bold;
+										text-align:center;
+										line-height:45px;	
+									}
+
+#mnb ul.menu li a:hover		
+									{
+										color:#a8a8a8;	
+									}									
+									
+#mnb ul.menu li:first-child																		
+									{
+										margin-left:19px;
+									}
+			
+#mnb ul.menu li:last-child
+									{
+										margin-right:19px;
+									}	
+									
+#mnb div.hidden2
+									{
+										width:2px;
+										height:45px;
+										float:left;
+										background-color:#323237;
+										box-shadow:-2px 0 5px rgba(0,0,0,0.7);
+									}									
+
+#mnb div.leftBt
+								   {
+										width:45px;
+										height:45px;
+										float:left;
+										margin-right:1px;
+										font-size:16px;
+										text-align:center;
+										line-height:45px;
+										transition:box-shadow 0.2;
+									}
+
+#mnb div.leftBt:hover
+									{
+										box-shadow:0 0 3px rgba(0,0,0,0.7);
+									}									
+							
+#mnb div.rightBt
+									{
+										width:45px;
+										height:45px;
+										float:left;
+										font-size:16px;
+										text-align:center;
+										line-height:45px;
+										transition:box-shadow 0.2s;
+									}	
+									
+#mnb div.rightBt:hover
+									{
+										box-shadow:0 0 3px rgba(0,0,0,0.7);
+									}									
+							
+									/* 본문 */
+#mainCont div.m-cont1	
+									{
+										width:724px;
+										height:185px;
+										margin:18px 0px 19px 17px;
+									}
+									/* 호버 관련 */
+#mainCont div.img01
+									{
+										overflow:hidden;
+										width:166px;
+										height:108px;
+									}
+
+#mainCont div.img01 img	
+									{
+										transform:scale(1);
+										transition:0.2s;
+										transition-timing-function:ease-out;
+									}
+		
+#mainCont a:hover img
+									{
+										transform:scale(1.1);
+									}									
+
+#mainCont a:hover h4, #mainCont a:hover p
+									{
+										text-decoration:underline;
+									}									
+
+#mainCont div.m-cont::after
+									{
+										content:"";
+										display:table;
+										clear:both;
+									}
+									/* 첫번째 줄 */
+#mainCont .m-cont1 nav.contMenu
+									{
+										width:166px;
+										height:185px;
+										float:left;
+										margin-right:14px;;
+										box-shadow:0 0 4px #ec81af;
+										position:relative;
+									}
+#mainCont .m-cont1 nav.contMenu::after
+									{
+										content:"";
+										display:table;
+										clear:both;
+									}
+							
+.m-cont1 .contMenu a:hover
+									{
+										text-decoration:underline;
+									}									
+
+.m-con1 nav.contMenu img	
+									{
+									 position:absolute;
+									 left:0px;
+									 top:0px;
+									}												
+
+.m-cont1 nav.contMenu	h3
+									{
+										width:142px;
+										height:20px;
+										font-size:19px;
+										font-weight:bold;
+										text-align:left;
+										line-height:20px;
+										position:absolute;
+										left:18px;
+										top:23px;
+										z-index:1;
+									}
+
+.m-cont1 nav.contMenu .ham2
+									{
+										width:138px;
+										padding:17px 0 13px 0;
+										position:absolute;
+										left:18px;
+										top:44px;
+										z-index:1;
+									}									
+
+.m-cont1 nav.contMenu .mini-ham2
+									{	
+										width:13px;
+										height:2px;
+										background-color:#e0e0e0;
+									}
+						
+.m-cont1 nav.contMenu ul
+									{
+										width:142px;
+										height:69px;
+										position:absolute;
+										z-index:1;
+										left:18px;
+										top:77px;
+									}
+
+.m-cont1 nav.contMenu ul	li
+									{
+										width:71px;
+										height:23px;
+										float:left;
+									}																	
+
+.m-cont1 nav.contMenu ul	li	a
+									{
+										text-align:left;
+										font-size:12px;
+										line-height:23px;
+									}
+								
+.m-cont1 article.mainContents
+									{
+										width:346px;
+										height:185px;
+										float:left;
+										margin-right:14px;
+									}
+
+.m-cont1 .mainContents::after
+									{
+										content:"";
+										display:table;
+										clear:both;
+									}
+								
+.m-cont1 article.mainContents a	
+									{
+										display:block;
+										position:relative;
+										width:346px;
+										height:185px;
+										overflow:hidden;
+									}
+
+.m-cont1 article.mainContents img.m-img	
+									{
+										position:absolute;
+										transform:scale(1);
+										transition:0.2s;
+										transition-timing-function:ease-out;
+									}
+								
+.m-cont1 article.mainContents div.blind
+									{
+										width:338px;
+										height:50px;
+										position:absolute;
+										left:0px;
+										padding-left:8px;
+										bottom:0px;
+										z-index:1;
+										background-color:rgba(0,0,0,0.5);
+									}
+
+.m-cont1 .mainContents .blind img.play
+									{
+										display:block;
+										width:29px;
+										height:29px;
+										float:left;
+										margin:10px 7px 0 0;
+										opacity:0.8;
+									}
+									
+.m-cont1 .mainContents .blind img.play:hover
+									{
+										opacity:1;
+									}									
+
+.mainContents .blind p
+									{	
+										display:block;
+										float:left;
+										width:300px;
+										height:14px;
+										font-size:11px;
+										margin-top:11px;
+										color:#ccc;
+									}									
+
+.mainContents .blind h4
+									{
+										display:block;
+										font-size:12px;
+										height:15px;
+										margin-top:1px;
+										font-weight:normal;
+										float:left;
+									}
+
+.mainContents .blind img.navi 
+									{
+										display:block;
+										width:15px;
+										height:15px;
+										float:left;
+										margin-top:1px;
+									}
+		
+.m-cont1  a:hover img
+									{
+										transform:scale(1.1);
+									}
+
+.m-cont1 a:hover h4, .m-cont1 a:hover p
+									{
+										text-decoration:underline;
+									}
+
+.m-cont1 article.contents2
+									{
+										width:166px;
+										height:185px;
+										float:left;
+										margin-right:16px;
+									}				
+									
+.m-cont1 article.contents2 a
+									{
+										display:block;
+										width:166px;
+										height:185px;
+									}
+
+.m-cont1 article.contents2 h4
+									{
+										width:164px;
+										height:36px;
+										margin-top:8px;
+										font-size:12px;
+										padding-left:2px;
+										font-weight:500;
+										line-height:155%;
+
+									}
+
+.m-cont1 article.contents2 div.copy
+									{
+										width:164px;
+										height:16px;
+										margin-top:4px;
+										padding-left:2px;
+										line-height:16px;
+										color:#a8a8a8;
+									}
+
+.m-cont1 article.contents2 span
+									{
+										font-size:12px;
+										vertical-align:top;
+									}
+							
+.m-cont1 article.contents2 span:nth-child(2n)
+									{
+										display:inline-block;
+										width:1px;
+										height:14px;
+										background-color:#666;
+
+									}	
+
+#mainCont div.m-cont
+									{
+										width:724px;
+										height:185px;
+										margin:0px 0px 19px 17px;
+									}									
+
+.m-cont article.contents1
+									{
+										width:166px;
+										height:185px;
+										float:left;
+										margin-right:14px;
+										overflow:hidden;
+									}
+							
+.m-cont article.contents1 a
+									{
+										display:block;
+										width:166px;
+										height:185px;
+									}									
+
+.m-cont article.contents1:nth-child(4n)
+									{
+										margin-right:16px;
+									}
+
+.m-cont article.contents1 h4
+									{
+										width:164px;
+										height:36px;
+										margin-top:8px;
+										font-size:12px;
+										padding-left:2px;
+										line-height:155%;
+										
+									}
+
+.m-cont article.contents1 div.copy
+									{
+										width:164px;
+										height:16px;
+										padding-top:4px;
+										padding-left:2px;
+										vertical-align:top;
+										color:#a8a8a8;
+									}
+									
+.m-cont article.contents1 span
+									{
+										font-size:12px;
+										vertical-align:top;
+									}	
+									
+.m-cont article.contents1 span:nth-child(2n) 
+									{
+										display:inline-block;
+										width:1px;
+										height:14px;
+										background-color:#666;	
+										vertical-align:text-top
+									}
+									/* 쇼핑몰란 */
+div.c-3 section#shopping
+									{
+										width:330px;
+										height:884px;
+										font-size:12px;
+										float:left;
+										background-color:#323237;
+										transition:box-shadow 1s;
+										transition-timing-function:ease-out;
+									}	
+									
+									/* 쇼핑몰 호버관련 */
+div.c-3 section#shopping:hover
+									{
+										box-shadow:0 0 10px #50c3af;
+									}
+
+
+#shopping header.shoppingMall
+									{
+										width:330px;
+										height:45px;
+										box-shadow:0 0 2px rgba(0,0,0,0.5);
+									}	
+								
+#shopping .shoppingMall h3	
+									{
+										width:58px;
+										height:45px;
+										float:left;
+										line-height:45px;
+										text-align:center;
+										font-size:16px;
+										font-weight:bold;
+									}	
+									
+#shopping .shoppingMall nav.snb
+									{
+										width:150px;
+										height:45px;
+										float:right;
+									}
+
+#shopping .shoppingMall .snb a
+									{
+										height:45px;
+										font-size:15px;
+										font-weight:bold;
+										line-height:45px;
+										text-align:center;
+										margin-right:10px;
+									}
+
+#shopping .shoppingMall .snb a:hover
+									{
+										color:#a8a8a8;
+									}									
+
+
+									/* 쇼핑몰 본문 */
+#shopping section.goodsCorner
+									{
+										width:330px;
+										height:626px;
+									}									
+									
+#shopping section.goodsCorner dl.catelog
+									{
+										width:298px;
+										margin:0 16px;
+										padding:11px 0 9px 0;
+										border-bottom:1px solid rgba(0,0,0,0.5);
+									}
+								
+#shopping dl.catelog dt
+									{
+										display:none;
+									}	
+									
+#shopping dl.catelog dd
+									{
+										width:298px;
+										height:20px;
+										font-size:12px;
+									}
+									
+#shopping dl.catelog dd	a, #shopping dl.catelog dd span
+									{
+										vertical-align:middle;
+										color:#bbbbbb;
+									}
+
+#shopping dl.catelog dd a.bold
+									{
+										font-size:13px;
+										color:#e0e0e0;
+									}
+								
+div.c-3 #shopping dl.catelog a:hover 
+									{
+										text-decoration:underline;
+									}									
+
+									/* 버튼 */
+
+#shopping .goodsCorner div.turnAPage
+									{
+										width:298px;
+										height:45px;
+										padding:0 16px;
+									}
+#shopping .goodsCorner div.turnAPage p
+									{
+										font-size:11px;
+										width:100px;
+										height:45px;
+										text-align:right;
+										line-height:45px;
+										float:right;
+										margin-right:4px;
+									}	
+#shopping .goodsCorner .turnAPage button
+									{
+										margin-top:7px;
+										width:30px;
+										height:30px;
+										border:none;
+										background-color:#26272c;
+										float:right;
+										margin-left:3px;
+										font-size:14px;
+										text-align:center;
+										line-height:30px;
+										color:#e0e0e0;
+									}
+																										
+
+									/* 상품란 */							
+#shopping section.goodsCorner ul.goods
+									{
+										width:330px;
+										height:565px;
+									}	
+									
+#shopping section.goodsCorner ul.goods li
+									{
+										width:298px;
+										height:174px;
+										margin:0 16px;
+									}									
+
+#shopping section.goodsCorner ul.goods li a
+									{
+										width:94px;
+										height:174px;
+										float:left;
+									}
+#shopping section.goodsCorner ul.goods li a div.img1
+									{
+										width:94px;
+										height:117px;
+										overflow:hidden;
+									}
+
+#shopping section.goodsCorner ul.goods li a p
+									{
+										width:94px;
+										height:50px;
+										padding-top:7px;
+										line-height:150%;
+									}										
+
+#shopping section.goodsCorner ul.goods li a:nth-child(2n)	
+								   {
+										margin:0 8px;
+									}
+#shopping .goodsCorner ul.goods li a img
+									{
+										transform: scale(1);
+										transition: all 0.2s;
+										overflow:hidden;
+										transition-timing-function:ease-out;
+
+									}									
+
+#shopping .goodsCorner ul.goods li a:hover img
+									{
+										transform: scale(1.1);
+									}	
+
+#shopping .goodsCorner ul.goods li a:hover p
+									{
+										text-decoration:underline;
+									}
+
+									/* shopping 푸터 */
+#shopping footer.sft
+									{
+										width:330px;
+										height:256px;
+										box-shadow:0 0 2px rgba(0,0,0,0.7);
+									}
+				
+#shopping footer.sft	div.snn
+									{
+										width:298px;
+										height:46px;
+										margin:0 16px;
+									}
+
+#shopping .sft .snn .hamburger
+									{
+										width:10px;
+										height:46px;
+										float:left;
+									}	
+							
+#shopping .sft .snn .hamburger .mini-ham
+									{
+										width:2px;
+										height:12px;
+										margin:17px 0px;
+										background-color:#50c3af;
+									}
+
+#shopping .sft .snn h4
+									{
+										width:150px;
+										height:46px;
+										float:left;
+										font-size:13px;
+										font-weight:normal;
+										text-align:left;
+										line-height:46px;
+									}	
+							
+#shopping .sft .snn button
+									{
+										width:26px;
+										height:26px;
+										margin:10px 4px;
+										float:right;
+										background-color:#323237;
+										border:none;
+										transition:box-shadow 0.2s;
+									}
+
+#shopping .sft .snn button:hover									
+									{box-shadow:0 0 2px rgba(0,0,0,0.7);}
+#shopping .sft .shoppingNews
+									{
+										width:298px;
+										height:21px;
+										margin:0 16px;
+									}			
+
+#shopping .sft .shoppingNews a
+									{
+										width:298px;
+										height:21px;
+
+									}	
+	
+#shopping .sft .shoppingNews a:hover h5, #shopping .sft .shoppingNews a:hover p
+									{
+										text-decoration:underline;
+									}									
+									
+#shopping .sft .shoppingNews a h5, #shopping .sft .shoppingNews a p
+									{
+										display:inline-block;
+										font-size:11px;
+										vertical-align:middle;
+									}	
+
+#shopping .sft .shoppingNews a h5
+									{
+										color:#50c3af;
+										font-weight:normal;
+									}									
+									
+									/* 마지막 줄 */
+div.c-4
+									{
+										width:1080px;
+										margin-top:8px;
+									}
+								
+div.c-4::after
+									{
+										content:"";
+										display:table;
+										clear:both;
+									}
+
+									/* 캠페인 */
+div.c-4 section#campaign
+									{
+										width:724px;
+										height:109px;
+										margin-right:8px;
+										padding:21px 0 0 16px;
+										background-color:#323237;
+										float:left;
+										font-size:11px;
+										transition:box-shadow 1s;
+										transition-timing-function:ease-out;
+									}	
+
+div.c-4 section#campaign:hover
+									{
+										box-shadow:0 0 10px #50c3af;
+									}									
+									
+#campaign article.camCont	
+									{
+										width:362px;
+										height:88px;
+										float:left;
+									}
+							
+#campaign .camCont a.cam-l
+									{
+										display:block;
+										width:166px;
+										height:88px;
+										float:left;
+									}
+									
+#campaign .camCont a.cam-r
+									{
+										display:block;
+										width:182px;
+										height:88px;
+										padding:5px 0 0 14px;
+										float:left;
+									}
+								
+.camCont a:hover h4,	.camCont a:hover h3, .camCont a:hover p
+									{
+										text-decoration:underline;
+									}
+									
+#campaign .camCont a.cam-r h3
+									{
+										color:#50c3af;
+										width:168px;
+										font-weight:normal;
+									}
+
+#campaign .camCont a.cam-r h4
+									{
+										font-size:14px;
+										font-weight:normal;
+										width:164px;
+										margin-top:4px;
+									}
+								
+#campaign .camCont a.cam-r p
+									{
+										width:164px;
+										margin-top:7px;
+										line-height:140%;
+										color:#bbbbbb;
+									}									
+
+
+									/* 마지막 배너 */
+div.c-4 aside.subBanner-2
+									{
+										width:332px;
+										height:130px;
+										float:left;
+									}
+
+									/* 푸터 */
+footer#info
+									{ 
+										width: 100%;
+										height:314px;
+										box-shadow:0 0px 5px rgba(0,0,0,0.5);
+										font-size:12px;	 
+									}
+
+									/* 호버 관련 */
+#info a:hover p, #info a:hover h3, #info a:hover
+									{
+										text-decoration:underline;
+									}									
+							
+#info div.f-top
+									{
+										width:100%;
+										height:46px;
+										border-bottom:1px solid #26272c;
+									}
+
+#info .f-top a.anounce1
+									{
+										display:block;
+										height:45px;
+										float:left;
+									}
+
+#info .f-top a.anounce2
+									{
+										display:block;
+										height:45px;
+										float:left;
+										margin-left:14px;
+									}									
+
+#info .f-top a.anounce1 h3
+									{
+										height:45px;
+										font-size:13px;
+										font-weight:normal;
+										line-height:45px;
+									}
+
+#info .f-top a.anounce2 p
+									{
+										height:45px;
+										font-size:12px;
+										line-height:45px;
+										color:#bbbbbb;
+									}
+										
+									
+#info .f-top a.total 
+									{
+										width:200px;
+										height:45px;
+										float:right;
+									}	
+								
+#info	.f-top a.total p
+									{
+										height:45px;
+										float:right;
+										line-height:45px;
+									}
+
+									/* 중간줄 */
+#info div.f-mid
+									{
+										width:100%;
+										height:110px;
+									}	
+
+#info .f-mid div.mid-l
+									{
+										width:743px;
+										height:65px;
+										margin-top:27.5px;
+										float:left;
+									}
+							
+#info .f-mid .mid-l>div
+									{
+										width:743px;
+										height:15px;
+									}
+									
+#info .f-mid .mid-l .mid-l-2
+									{
+										margin:5px 0;
+									}									
+			
+#info .f-mid .mid-l h4
+									{
+										float:left;
+										width:91px;
+										height:15px;
+										line-height:15px;
+										font-size:14px;
+										font-weight:normal;
+									}
+
+#info .f-mid .mid-l a	
+									{
+										display:inline-block;
+										margin-top:2px;
+									}									
+								
+#info .f-mid .mid-l a p
+									{
+										height:15px;
+										line-height:15px;
+										font-size:12px;
+										color:#bbbbbb;
+									}
+								
+#info .f-mid .mid-l span
+									{
+										display:inline-block;
+										margin:0 10px;
+										width:1px;
+										height:10px;
+										vertical-align:-1px;
+										background-color:#666;
+									}									
+
+#info .f-mid div.mid-r 
+									{
+										float:right;
+										width:337px;
+										height:110px;
+									}									
+									
+#info .f-mid .mid-r>div 
+									{
+										float:left;
+									}
+
+#info .f-mid .mid-r a
+									{
+										color:#a8a8a8;
+									}									
+
+#info .f-mid .mid-r .mid-r-1
+									{
+										width:139px;
+										height:50px;
+										padding:0 24px 0 23px;
+										margin-top:25px;
+										float:left;
+									}
+						
+#info .f-mid .mid-r .mid-r-1 div.text-l
+									{
+										width:89px;
+										height:50px;
+										float:left;
+									}
+									
+#info .f-mid .mid-r .mid-r-1 div.text-r
+									{
+										width:50px;
+										height:50px;
+										float:left;
+										overflow:hidden;
+									}
+
+#info .f-mid .mid-r .mid-r-2
+									{
+										width:126px;
+										height:50px;
+										padding:0 0 0 23px;
+										margin-top:25px;
+										float:left;
+									}
+						
+#info .f-mid .mid-r .mid-r-2 div.text-l
+									{
+										width:76px;
+										height:50px;
+										float:left;
+									}
+									
+#info .f-mid .mid-r .mid-r-2 div.text-r
+									{
+										width:50px;
+										height:50px;
+										float:left;
+										overflow:hidden;
+									}									
+
+									/* 마지막 줄 */
+#info .f-bottom 
+									{
+										width:100%;
+										height:156px;
+										border-top:1px solid #26272c;
+									}	
+
+#info .f-bottom ul.copyright 
+									{
+										margin-top:24px;
+									}									
+
+#info .f-bottom	ul.copyright li
+									{
+										float:left;
+										
+									}
+								
+#info .f-bottom	ul.copyright li a
+									{
+										display:block;
+										float:left;
+									}
+
+#info .f-bottom .copyright li span
+									{
+										display:block;
+										width:1px;
+										height:11px;
+										margin:0 14px;
+										background-color:#aaa;
+										float:left;
+										margin-top:2px;
+									}									
+					
+#info .f-bottom .copyright li a h6
+									{
+										font-size:12px;
+										color:#a8a8a8;
+										font-weight:normal;
+									}
+
+#info .f-bottom .copyright li a h5
+									{
+										font-size:12px;
+										color:#e0e0e0;
+										font-weight:normal;
+									}									

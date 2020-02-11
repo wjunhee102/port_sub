@@ -1,0 +1,1493 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        <link href="https://fonts.googleapis.com/css?family=Gothic+A1|Nanum+Gothic|Noto+Sans+KR&display=swap" rel="stylesheet">
+        <style type="text/css">
+            *{
+              margin:0; padding:0;
+              font-family: 'Nanum Gothic', sans-serif;
+             }
+            li{list-style:none;}
+            a{text-decoration:none;
+              color:#e0e0e0;}
+            h4, h5, p
+                {
+                    font-weight:normal;
+                }
+            strong
+                {
+                    font-weight:normal;
+                    color:#11fc69;
+                }    
+            
+        </style>
+        <link rel="stylesheet" href="css/naverCss.css" />
+        <link rel="shortcut icon" type="image⁄x-icon" href="images/header/titleicon01.png" />
+        <title>네이버</title>
+        
+    </head>
+        
+         <body>
+            <div id="wrap">
+                <header id="index-h">
+                    <!-- 로고/서치바 -->
+                    <div id="h-top">
+                        
+                        <div class="contWrap fr">
+                           
+						     <h1 id="logo">
+                                <a href="naverindex2.html" class="hiddenImg"><img src="images/header/naverlogo007.png"  /></a>
+                                <img src="images/header/naverlogo008.png" class="logoimg" />
+							 </h1>
+                               
+							<form action="" id="searchbar">
+                                  <input type="text" alt="search" placeholder="Search" id="search" />
+								  <button id="searchBt"> <img src="images/header/searchIcon1.png" /></button>
+                            </form>
+                            
+							
+							<div class="h-top3 fr">
+                                <a href="#" id="startpage">
+                                    <h5 class="stText">네이버를 시작페이지로 &#62;</h5>
+                                </a>
+                                
+                                <div class="hamburger">
+                                    <div class="mini-ham"></div>
+                                </div>
+                                
+                                <div class="h-top3-son fr">
+                                    <a href="#" class="juniver">
+                                        <img src="images/header/juniorNaver01.png" class="jImg01" />
+                                        <img src="images/header/juniorNaver02.png" class="jImg02" />
+                                    </a>
+									<a href="#" class="happyBeen">
+                                        <img src="images/header/happyBeen01.png" class="hbImg01" />
+                                        <img src="images/header/happyBeen02.png" class="hbImg02" />
+                                    </a>
+								</div>
+                            </div>
+                        
+						</div>
+                    </div>
+                    <!-- nav -->
+                    <div id="h-bottom">
+                        <div class="contWrap ">
+                            <!-- 메뉴바 -->
+                            <nav id="gnb">
+                                <div class="menubar">
+                                    <ul class="nav-left fr">
+                                        <li><a href="#">메일</a></li>
+                                        <li><a href="#">카페</a></li>
+                                        <li><a href="#">블로그</a></li>
+                                        <li><a href="#">지식iN</a></li>
+                                        <li><a href="#">쇼핑</a></li>
+                                        <li><a href="#">Pay</a></li>
+                                        <li><a href="#"><img src="images/header/play1.png" />TV</a></li>
+                                    </ul>
+                                    <ul class="nav-right fr">
+                                        <li><a href="#">사전</a></li>
+                                        <li><a href="#">뉴스</a></li>
+                                        <li><a href="#">증권</a></li>
+                                        <li><a href="#">부동산</a></li>
+                                        <li><a href="#">지도</a></li>
+                                        <li><a href="#">영화</a></li>
+                                        <li><a href="#">뮤직</a></li>
+                                        <li><a href="#">책</a></li>
+                                        <li><a href="#">웹툰</a></li>
+                                    </ul>
+                                </div>
+                                <div class="hamburger">
+                                    <div class="miniham"></div>
+                                </div>
+                                <!-- 더보기-->
+                                <div class="menu-more">
+
+                                    <div class="dropBtn">
+                                        <div class="text-more">더보기</div> 
+                                        <img src="images/header/dw3.png" />
+                                    </div>
+                                    <div class="dropdwCont">
+                                        <div class="contWrap">
+
+                                            <div class="service">
+                                                <h4>ㄱ-ㄷ</h4>
+                                                <ul>
+                                                    <li><a href="#">그라폴리오</a></li>
+                                                    <li><a href="#">날씨</a></li>
+                                                    <li><a href="#">네이버 예약</a></li>
+                                                    <li><a href="#">네이버 클라우드</a></li>
+                                                    <li><a href="#">네이버 포스트</a></li>
+                                                    <li><a href="#">뉴스</a></li>
+                                                    <li><a href="#">데이터랩</a></li>
+                                                </ul>
+
+                                            </div>
+                                            <div class="service">
+                                                <h4>ㄹ-ㅅ</h4>
+                                                <ul>
+                                                    <li><a href="#">라인</a></li>
+                                                    <li><a href="#">만화/웹툰</a></li>
+                                                    <li><a href="#">메모</a></li>
+                                                    <li><a href="#">뮤직</a></li>
+                                                    <li><a href="#">밴드</a></li>
+                                                    <li><a href="#">부동산</a></li>
+                                                    <li><a href="#">북마크</a></li>
+                                                    <li><a href="#">소프트웨어</a></li>
+                                                    <li><a href="#">스마트보드</a></li>
+                                                    <li><a href="#">스포츠</a></li>
+                                                    <li><a href="#">시리즈</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="service">
+                                                <h4>ㅇ-ㅈ</h4>
+                                                <ul>
+                                                    <li><a href="#">영화</a></li>
+                                                    <li><a href="#">오디오클립</a></li>
+                                                    <li><a href="#">오피스</a></li>
+                                                    <li><a href="#">웹소설</a></li>
+                                                    <li><a href="#">자동차</a></li>
+                                                    <li><a href="#">주소록</a></li>
+                                                    <li><a href="#">증권(금융)</a></li>
+                                                    <li><a href="#">지도</a></li>
+                                                    <li><a href="#">지식백과</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="service">
+                                                <h4>ㅊ-ㅎ</h4>
+                                                <ul>
+                                                    <li><a href="#">책</a></li>
+                                                    <li><a href="#">캘린더</a></li>
+                                                    <li><a href="#">학술정보</a></li>
+                                                    <li><a href="#">항공권</a></li>
+                                                    <li><a href="#">호텔</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="service">
+                                                <h4>A-Z</h4>
+                                                <ul>
+                                                    <li><a href="#">modoo![모두]</a></li>
+                                                    <li><a href="#">MY구독</a></li>
+                                                    <li><a href="#">PC게임</a></li>
+                                                    <li><a href="#">TV연예</a></li>
+                                                    <li><a href="#">V LIVE</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="service">
+                                                <h4>사전</h4>
+                                                <ul>
+                                                    <li><a href="#">사전</a></li>
+                                                    <li><a href="#">국어사전</a></li>
+                                                    <li><a href="#">영어/영영사전</a></li>
+                                                    <li><a href="#">일본어사전</a></li>
+                                                    <li><a href="#">중국어사전</a></li>
+                                                    <li><a href="#">한자사전</a></li>
+                                                    <li><a href="#" class="diction">사전 더보기 &#62;</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="service">
+                                                <h4 class="new-s1">인기/신규 서비스</h4>
+                                                <ul class="new-s2">
+                                                    <li><a href="#">VIBE</a></li>
+                                                    <li><a href="#">네이버 알파</a></li>
+                                                    <li><a href="#">네이버 클로바</a></li>
+                                                    <li><a href="#">웨일</a></li>
+                                                    <li><a href="#">파파고</a></li>
+                                                </ul>
+                                            </div>
+
+                                        </div>
+                                    </div>                                
+                                </div>
+                            </nav>
+                            
+                            <!-- 실시간 인기 검색어-->
+                            <div class="popSearch">
+                                <div class="dropBtn">
+                                    <h3>1</h3>
+                                    <p>실시간 검색어</p>
+                                    <img src="images/header/dw6.png" />
+                                </div>
+                                <div class="dropdwCont fr">
+                                    <div class="drop-top">
+                                        <h3>급상승 검색어</h3>
+                                        <a href="#" class="datalab">
+                                            <h4>DataLab<b>.</b></h4>
+                                            <p>급상승 트래킹 &#62;</p>
+                                        </a>
+                                    </div>
+
+                                    <div class="drop-middle">
+                                        <div class="rankbar">
+                                            <a href="#" class="rank1">1~10위</a>
+                                            <a href="#" class="rank2">11~20위</a>
+                                        </div>
+
+                                        <ul class="fr">
+
+                                            <li>
+                                                <h5>1</h5>
+                                                <a href="">안녕하세요</a>
+                                                <img src="images/header/graph.png" />
+                                            </li>
+
+                                            <li>
+                                                <h5>2</h5>
+                                                <a href="">안녕하세요</a>
+                                                <img src="images/header/graph.png" />
+                                            </li>
+
+                                            <li>
+                                                <h5>3</h5>
+                                                <a href="">안녕하세요</a>
+                                                <img src="images/header/graph.png" />
+                                            </li>
+
+                                            <li>
+                                                <h5>4</h5>
+                                                <a href="">안녕하세요</a>
+                                                <img src="images/header/graph.png" />
+                                            </li>
+
+                                            <li>
+                                                <h5>5</h5>
+                                                <a href="">안녕하세요</a>
+                                                <img src="images/header/graph.png" />
+                                            </li>
+
+                                            <li>
+                                                <h5>6</h5>
+                                                <a href="">안녕하세요</a>
+                                                <img src="images/header/graph.png" />
+                                            </li>
+                                            <li>
+                                                <h5>7</h5>
+                                                <a href="">안녕하세요</a>
+                                                <img src="images/header/graph.png" />
+                                            </li>
+
+                                            <li>
+                                                <h5>8</h5>
+                                                <a href="">안녕하세요</a>
+                                                <img src="images/header/graph.png" />
+                                            </li>
+
+                                            <li>
+                                                <h5>9</h5>
+                                                <a href="">안녕하세요</a>
+                                                <img src="images/header/graph.png" />
+                                            </li>
+
+                                            <li>
+                                                <h5>10</h5>
+                                                <a href="">안녕하세요</a>
+                                                <img src="images/header/graph.png" />
+                                            </li>
+                                        </ul>
+                                    
+                                    </div>
+                                    <div class="drop-bottom">
+                                        <p>2019.09.13 00:01:00 기준</p><img src="images/header/graph01.png" />
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>                    
+                </header>
+                <div id="container">
+                    <div class="contWrap">
+
+                        <!-- 콘텐츠 첫번째 줄 -->
+                        <div class="c-1">
+                            <aside id="mainBanner">
+                                <a href="#"><img src="images/banners/main01.png" alt="광고1"/></a>
+                            </aside>
+                            
+                            <section id="login">
+                                <div class="blank">
+                                    <p class="loginEx">네이버를 더 안전하고 편리하게 이용하세요.</p>
+                                    <a href="#" class="loginBt">
+                                        <img src="images/login/loginBt01.png" />
+                                    </a>
+                                    <a href="#" class="id-s">아이디 &#183; 비밀번호 찾기</a>
+                                    <a href="#" class="join">회원가입</a>
+                                </div>
+                            </section>
+                        </div>
+                        
+                        <!-- 콘텐츠 두번째 줄 -->
+                        <div class="c-2">
+                            <div class="c-2-l">
+                                <section id="newsBar">
+                                    <div class="nb-1">
+                                        <a href="#"><h3>연합뉴스 &#62;</h3></a>
+                                    </div>
+                                    <div class="nb-2">
+                                        <a href="#"><p> 애플 아이폰11 출시 "역시, 혁신 없었다" </p></a>
+                                    </div>    
+                                    <div class="nb-3">
+                                        <a href="#"><h4>네이버뉴스</h4></a>
+                                        <a href="#"><h4>연예</h4></a>
+                                        <a href="#"><h4>스포츠</h4></a>
+                                        <a href="#"><h4>경제</h4></a>
+                                    </div>
+
+                                </section>
+                               <!-- 뉴스 스탠드 -->
+                                <section id="newsMenu">
+                                    <div class="nm-top">
+                                        <div class="n-t-1">
+                                            <a href="#" class="newsSt">뉴스스탠드 &#62;</a>
+                                            <a href="#" class="total">전체언론사</a>
+                                            <div class="miniham"></div>
+                                            <a href="#" class="myNews">MY뉴스</a>
+                                        </div>
+                                        <div class="n-t-2">
+                                            <a href="#" class="icon1">
+                                                <img src="images/news/menu02.png" class="non" />
+                                                <img src="images/news/menu02.png" class="over" />
+                                            </a>
+                                            <a href="#" class="icon2">
+                                                <img src="images/news/ham2.png" class="non" />
+                                                <img src="images/news/ham2.png" class="over" />
+                                            </a>
+                                            <a href="#" class="icon3">
+                                                <img src="images/news/sawtooth1.png" class="non" />
+                                                <img src="images/news/sawtooth2.png" class="over" />
+                                            </a>
+                                            <button href="#" class="nbt-1">&#60;</button>
+                                            <button href="#" class="nbt-2">&#62;</button>
+                                        </div>
+                                    </div>
+
+                                    <div class="nm-bottom">
+                                        
+                                        <div class="nc-1">
+
+                                            <div class="newsConts"> 
+
+                                                <div class="n-cont">
+                                                    <div class="newsImg">
+                                                        <img src="images/news/news001.png" />
+                                                    </div>
+                                                    <div class="paper">
+                                                        <div class="n-line"></div>
+                                                        <div class="p-l"></div>
+                                                        <div class="p-r">
+                                                            <div class="n-ham"></div>
+                                                            <div class="n-mini"></div>
+                                                            <div class="n-mini2"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="sub-view">
+                                                    <a href="#" class="sub">구독</a>
+                                                    <a href="#" class="view">기사보기</a>
+                                                </div>
+
+                                            </div>
+                                            <!-- 뉴스가판대 -->
+                                             <div class="newsConts"> 
+
+                                                <div class="n-cont">
+                                                    <div class="newsImg">
+                                                        <img src="images/news/news002.png" />
+                                                    </div>
+                                                    <div class="paper">
+                                                        <div class="p-l"></div>
+                                                        <div class="p-r">
+                                                            <div class="n-ham"></div>
+                                                            <div class="n-mini"></div>
+                                                            <div class="n-mini2"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="sub-view">
+                                                    <a href="#" class="sub">구독</a>
+                                                    <a href="#" class="view">기사보기</a>
+                                                </div>
+                                                
+                                            </div>
+
+                                             <div class="newsConts"> 
+
+                                                <div class="n-cont">
+                                                    <div class="newsImg">
+                                                        <img src="images/news/news003.png" />
+                                                    </div>
+                                                    <div class="paper">
+                                                        <div class="p-l"></div>
+                                                        <div class="p-r">
+                                                            <div class="n-ham"></div>
+                                                            <div class="n-mini"></div>
+                                                            <div class="n-mini2"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="sub-view">
+                                                    <a href="#" class="sub">구독</a>
+                                                    <a href="#" class="view">기사보기</a>
+                                                </div>
+                                                
+                                            </div>
+
+                                             <div class="newsConts"> 
+
+                                                <div class="n-cont">
+                                                    <div class="newsImg">
+                                                        <img src="images/news/news004.png" />
+                                                    </div>
+                                                    <div class="paper">
+                                                        <div class="p-l"></div>
+                                                        <div class="p-r">
+                                                            <div class="n-ham"></div>
+                                                            <div class="n-mini"></div>
+                                                            <div class="n-mini2"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="sub-view">
+                                                    <a href="#" class="sub">구독</a>
+                                                    <a href="#" class="view">기사보기</a>
+                                                </div>
+                                                
+                                            </div>
+
+                                             <div class="newsConts"> 
+
+                                                <div class="n-cont">
+                                                    <div class="newsImg">
+                                                        <img src="images/news/news005.png" />
+                                                    </div>
+                                                    <div class="paper">
+                                                        <div class="p-l"></div>
+                                                        <div class="p-r">
+                                                            <div class="n-ham"></div>
+                                                            <div class="n-mini"></div>
+                                                            <div class="n-mini2"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="sub-view">
+                                                    <a href="#" class="sub">구독</a>
+                                                    <a href="#" class="view">기사보기</a>
+                                                </div>
+                                                
+                                            </div>
+
+                                             <div class="newsConts"> 
+
+                                                <div class="n-cont">
+                                                    <div class="newsImg">
+                                                        <img src="images/news/news006.png" />
+                                                    </div>
+                                                    <div class="paper">
+                                                        <div class="p-l"></div>
+                                                        <div class="p-r">
+                                                            <div class="n-ham"></div>
+                                                            <div class="n-mini"></div>
+                                                            <div class="n-mini2"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="sub-view">
+                                                    <a href="#" class="sub">구독</a>
+                                                    <a href="#" class="view">기사보기</a>
+                                                </div>
+                                                
+                                            </div>
+
+
+                                        </div>
+
+                                        <div class="nc-2">
+
+                                            <div class="newsConts"> 
+
+                                                <div class="n-cont">
+                                                    <div class="newsImg">
+                                                        <img src="images/news/news007.png" />
+                                                    </div>
+                                                    <div class="paper">
+                                                        <div class="p-l"></div>
+                                                        <div class="p-r">
+                                                            <div class="n-ham"></div>
+                                                            <div class="n-mini"></div>
+                                                            <div class="n-mini2"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="sub-view">
+                                                    <a href="#" class="sub">구독</a>
+                                                    <a href="#" class="view">기사보기</a>
+                                                </div>
+
+                                            </div>
+
+                                             <div class="newsConts"> 
+
+                                                <div class="n-cont">
+                                                    <div class="newsImg">
+                                                        <img src="images/news/news008.png" />
+                                                    </div>
+                                                    <div class="paper">
+                                                        <div class="p-l"></div>
+                                                        <div class="p-r">
+                                                            <div class="n-ham"></div>
+                                                            <div class="n-mini"></div>
+                                                            <div class="n-mini2"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="sub-view">
+                                                    <a href="#" class="sub">구독</a>
+                                                    <a href="#" class="view">기사보기</a>
+                                                </div>
+                                                
+                                            </div>
+
+                                             <div class="newsConts"> 
+
+                                                <div class="n-cont">
+                                                    <div class="newsImg">
+                                                        <img src="images/news/news009.png" />
+                                                    </div>
+                                                    <div class="paper">
+                                                        <div class="p-l"></div>
+                                                        <div class="p-r">
+                                                            <div class="n-ham"></div>
+                                                            <div class="n-mini"></div>
+                                                            <div class="n-mini2"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="sub-view">
+                                                    <a href="#" class="sub">구독</a>
+                                                    <a href="#" class="view">기사보기</a>
+                                                </div>
+                                                
+                                            </div>
+
+                                             <div class="newsConts"> 
+
+                                                <div class="n-cont">
+                                                    <div class="newsImg">
+                                                        <img src="images/news/news010.png" />
+                                                    </div>
+                                                    <div class="paper">
+                                                        <div class="p-l"></div>
+                                                        <div class="p-r">
+                                                            <div class="n-ham"></div>
+                                                            <div class="n-mini"></div>
+                                                            <div class="n-mini2"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="sub-view">
+                                                    <a href="#" class="sub">구독</a>
+                                                    <a href="#" class="view">기사보기</a>
+                                                </div>
+                                                
+                                            </div>
+
+                                             <div class="newsConts"> 
+
+                                                <div class="n-cont">
+                                                    <div class="newsImg">
+                                                        <img src="images/news/news011.png" />
+                                                    </div>
+                                                    <div class="paper">
+                                                        <div class="p-l"></div>
+                                                        <div class="p-r">
+                                                            <div class="n-ham"></div>
+                                                            <div class="n-mini"></div>
+                                                            <div class="n-mini2"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="sub-view">
+                                                    <a href="#" class="sub">구독</a>
+                                                    <a href="#" class="view">기사보기</a>
+                                                </div>
+                                                
+                                            </div>
+
+                                             <div class="newsConts"> 
+
+                                                <div class="n-cont">
+                                                    <div class="newsImg">
+                                                        <img src="images/news/news012.png" />
+                                                    </div>
+                                                    <div class="paper">
+                                                        <div class="p-l"></div>
+                                                        <div class="p-r">
+                                                            <div class="n-ham"></div>
+                                                            <div class="n-mini"></div>
+                                                            <div class="n-mini2"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="sub-view">
+                                                    <a href="#" class="sub">구독</a>
+                                                    <a href="#" class="view">기사보기</a>
+                                                </div>
+                                                
+                                            </div>
+
+
+                                        </div>
+
+                                        <div class="nc-3">
+
+                                            <div class="newsConts"> 
+
+                                                <div class="n-cont">
+                                                    <div class="newsImg">
+                                                        <img src="images/news/news013.png" />
+                                                    </div>
+                                                    <div class="paper">
+                                                        <div class="p-l"></div>
+                                                        <div class="p-r">
+                                                            <div class="n-ham"></div>
+                                                            <div class="n-mini"></div>
+                                                            <div class="n-mini2"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="sub-view">
+                                                    <a href="#" class="sub">구독</a>
+                                                    <a href="#" class="view">기사보기</a>
+                                                </div>
+
+                                            </div>
+
+                                             <div class="newsConts"> 
+
+                                                <div class="n-cont">
+                                                    <div class="newsImg">
+                                                        <img src="images/news/news014.png" />
+                                                    </div>
+                                                    <div class="paper">
+                                                        <div class="p-l"></div>
+                                                        <div class="p-r">
+                                                            <div class="n-ham"></div>
+                                                            <div class="n-mini"></div>
+                                                            <div class="n-mini2"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="sub-view">
+                                                    <a href="#" class="sub">구독</a>
+                                                    <a href="#" class="view">기사보기</a>
+                                                </div>
+                                                
+                                            </div>
+
+                                             <div class="newsConts"> 
+
+                                                <div class="n-cont">
+                                                    <div class="newsImg">
+                                                        <img src="images/news/news015.png" />
+                                                    </div>
+                                                    <div class="paper">
+                                                        <div class="p-l"></div>
+                                                        <div class="p-r">
+                                                            <div class="n-ham"></div>
+                                                            <div class="n-mini"></div>
+                                                            <div class="n-mini2"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="sub-view">
+                                                    <a href="#" class="sub">구독</a>
+                                                    <a href="#" class="view">기사보기</a>
+                                                </div>
+                                                
+                                            </div>
+
+                                             <div class="newsConts"> 
+
+                                                <div class="n-cont">
+                                                    <div class="newsImg">
+                                                        <img src="images/news/news016.png" />
+                                                    </div>
+                                                    <div class="paper">
+                                                        <div class="p-l"></div>
+                                                        <div class="p-r">
+                                                            <div class="n-ham"></div>
+                                                            <div class="n-mini"></div>
+                                                            <div class="n-mini2"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="sub-view">
+                                                    <a href="#" class="sub">구독</a>
+                                                    <a href="#" class="view">기사보기</a>
+                                                </div>
+                                                
+                                            </div>
+
+                                             <div class="newsConts"> 
+
+                                                <div class="n-cont">
+                                                    <div class="newsImg">
+                                                        <img src="images/news/news017.png" />
+                                                    </div>
+                                                    <div class="paper">
+                                                        <div class="p-l"></div>
+                                                        <div class="p-r">
+                                                            <div class="n-ham"></div>
+                                                            <div class="n-mini"></div>
+                                                            <div class="n-mini2"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="sub-view">
+                                                    <a href="#" class="sub">구독</a>
+                                                    <a href="#" class="view">기사보기</a>
+                                                </div>
+                                                
+                                            </div>
+
+                                             <div class="newsConts"> 
+
+                                                <div class="n-cont">
+                                                    <div class="newsImg">
+                                                        <img src="images/news/news018.png" />
+                                                    </div>
+                                                    <div class="paper">
+                                                        <div class="p-l"></div>
+                                                        <div class="p-r">
+                                                            <div class="n-ham"></div>
+                                                            <div class="n-mini"></div>
+                                                            <div class="n-mini2"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="sub-view">
+                                                    <a href="#" class="sub">구독</a>
+                                                    <a href="#" class="view">기사보기</a>
+                                                </div>
+                                                
+                                            </div>
+
+
+                                        </div>
+
+                                    </div>
+
+                                </section>
+                            </div>
+                            
+                            <!-- 날씨 -->
+                            <div class="c-2-r">
+                                <section id="weather" class="fr">
+                                    <div class="w-1">
+                                        <div class="w-1-l">
+                                            <a href="#"><h4>09.11.(수)</h4></a>
+                                            <span></span>
+                                            <a href="#"><p>의정부시 용현동 &#62;</p></a>
+                                            <p><strong>1</strong>/6</p>
+                                        </div>
+                                        <a href="#">
+                                        <div class="button1">&#60;</div>
+                                        </a>
+                                        <a href="">
+                                        <div class="button2">&#62;</div>
+                                        </a>
+                                    </div>
+                                    <div class="w-2">
+                                        <div class=w-2-l>
+                                            <a href="#">
+                                                <img src="images/s-1/w-icon001.png" />
+                                                <div class="tem">
+                                                    <div class="do">
+                                                            <span class="now">25</span>
+                                                            <span class="dodo">&#176;C</span>
+                                                    </div>
+                                                    <span class="min">22&#176;</span>
+                                                    <span class="sl">&#47;</span>
+                                                    <span class="max">30&#176;</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="w-2-r">
+                                            <h3>어제보다 2&#176; 높아요</h3>
+                                            <h4>미세먼지 <b>좋음</b></h4>
+                                        </div>
+                                    </div>
+                                    <div class="w-3 fr">
+                                        <a href="#" class="w-3-1">날씨</a>
+                                        <a href="#" class="w-3-2">실시간 기상정보 확인하기</a>
+                                        <a href="#" class="w-3-3"></a>
+                                        <a href="#" class="w-3-4">주간예보</a>
+                                    </div>
+                                </section>
+                                
+                                <aside id="subBanner-1">
+                                    <a href="#"><img src="images/banners/sub01.jpg" /></a>
+                                </aside>
+                            </div>
+                        </div>
+                    
+                    <!-- 메인 콘텐츠 -->
+                    <div class="c-3">
+                        <section id="mainCont">
+                            <nav id="mnb">
+                                <div class="hamburger">
+                                    <a href="#">
+                                        <div class="mini-ham"></div>
+                                        <div class="mini-ham"></div>
+                                        <div class="mini-ham"></div>
+                                    </a>    
+                                </div>
+                                <div class="hidden1"></div>
+                                <div href="#" id="menuBox">
+                                    <ul class="menu">
+                                        <li><a href="#">리빙</a></li>
+                                        <li><a href="#">푸드</a></li>
+                                        <li><a href="#">스포츠</a></li>
+                                        <li><a href="#">자동차</a></li>
+                                        <li><a href="#">패션뷰티</a></li>
+                                        <li><a href="#">부모i</a></li>
+                                        <li><a href="#">건강</a></li>
+                                        <li><a href="#">웹툰</a></li>
+                                        <li><a href="#">게임</a></li>
+                                        <li><a href="#">TV연예</a></li>
+                                        <li><a href="#">뮤직</a></li>
+                                        <li><a href="#">영화</a></li>
+                                    </ul>
+                                </div>
+                                <div class="hidden2"></div>
+                                <div class="leftBt">
+                                    <a href="#">&#60;</a>
+                                </div>
+                                <div class="rightBt">
+                                    <a href="#">&#62;</a>
+                                </div>
+                            </nav>
+                            
+                            <!-- 메인 콘텐츠 바 1-->
+                            <div class="m-cont1">
+                                
+                                <nav class="contMenu">
+                                    <img src="images/m-cont/00.png" />
+                                    <h3>패션뷰티</h3>
+                                    <div class="ham2">
+                                        <div class="mini-ham2"></div>
+                                    </div>
+                                    <ul>
+                                        <li><a href="#">오늘뷰티</a></li>
+                                        <li><a href="#">뷰스타</a></li>
+                                        <li><a href="#">뷰티TV</a></li>
+                                        <li><a href="#">V뷰티</a></li>
+                                        <li><a href="#">공식블로그</a></li>
+                                    </ul>
+                                </nav>
+                                
+                                <article class="mainContents">
+                                    <a href="#">
+                                        <img src="images/m-cont/01.jpg" class="m-img" alt="콘텐츠">
+                                        <div class="blind">
+                                            <img src="images/m-cont/playbt01.png" class="play" />
+                                            <p>[갓신상] 매주 토요일 위클리 신상 모음</p>
+                                            <h4>MAC/랑콤/알마니</h4>
+                                            <img src="images/m-cont/navi.png" class="navi" />
+                                            <h4>백화점 가을 립 3종 대결</h4>
+                                        </div>
+                                    </a>
+                                </article>
+
+                                <article class="contents2">
+                                        <a href="#">
+                                            <div class="img01">
+                                                <img src="images/m-cont/02.jpg" alt="콘텐츠">
+                                            </div>
+                                            <h4>
+                                                수채화처럼 은은하게 발색<br />
+                                                되는 러블리한 블러셔 6종
+                                            </h4>
+                                            <div class="copy">
+                                                <span>뷰스타 예리아</span>
+                                                <span></span>
+                                                <span>블로그</span>
+                                            </div>
+                                        </a>
+                                </article>
+
+                            </div>
+                            
+                            <!-- 메인 콘텐츠 바 2-->
+                            <div class="m-cont">
+                                    
+                                <article class="contents1">
+                                    <a href="#">
+                                        <div class="img01">
+                                            <img src="images/m-cont/03.jpg" alt="콘텐츠">
+                                        </div>
+                                        <h4>
+                                            트렌치코트+원피스+자켓+팬츠<br />
+                                            실용만접 셋업룩 
+                                        </h4>
+                                        <div class="copy">
+                                            <span>현대홈쇼핑</span>
+                                        </div>
+                                    </a>
+                                </article>
+
+                                <article class="contents1">
+                                    <a href="#">
+                                        <div class="img01"> 
+                                            <img src="images/m-cont/04.jpg" alt="콘텐츠">
+                                        </div>
+                                        <h4>
+                                            야식은 그만,전신 골고루<br />
+                                            자극하는 운동 ft,근력 UP
+                                        </h4>
+                                        <div class="copy">
+                                            <span>김하나 스트레칭</span>
+                                            <span>
+                                                <span></span>
+                                            </span>
+                                            <span>뷰티TV</span>
+                                        </div>
+                                    </a>
+                                </article>
+    
+                                <article class="contents1">
+                                    <a href="#">
+                                        <div class="img01">
+                                            <img src="images/m-cont/05.jpg" alt="콘텐츠">
+                                        </div>
+                                        <h4>
+                                            나비 패턴에 푹 빠졌다는<br />
+                                            스타들의 코디를 살펴볼까
+                                        </h4>
+                                        <div class="copy">
+                                            <span>트렌디스</span>
+                                            <span></span>
+                                            <span>포스트</span>
+                                        </div>
+                                    </a>
+                                </article>
+    
+                                <article class="contents1">
+                                    <a href="#">
+                                        <div class="img01">
+                                            <img src="images/m-cont/06.jpg" alt="콘텐츠">
+                                        </div>    
+                                        <h4>
+                                            셀프 태닝은 각질 제거부터!<br />
+                                            그래야 얼룩덜룩하지 않대
+                                        </h4>
+                                        <div class="copy">
+                                            <span>루이의 코덕놀이</span>
+                                            <span></span>
+                                                <span>뷰티TV</span>
+                                        </div>
+                                    </a>
+                                </article>
+
+                            </div>
+
+                                <!-- 메인 콘텐츠 바 3-->
+                            <div class="m-cont">
+                                    
+                                <article class="contents1">
+                                    <a href="#">
+                                        <div class="img01">
+                                            <img src="images/m-cont/07.jpg" alt="콘텐츠">
+                                        </div>
+                                        <h4>
+                                            SNS에서 좋아요를 부르는<br />
+                                            블랙 패키지 &#40;완판 예감ㅠ&#41;
+                                        </h4>
+                                        <div class="copy">
+                                            <span>하퍼스바자</span>
+                                            <span></span>
+                                            <span>포스트</span>
+                                        </div>
+                                    </a>
+                                </article>
+    
+                                <article class="contents1">
+                                    <a href="#">
+                                        <div class="img01">
+                                            <img src="images/m-cont/08.jpg" alt="콘텐츠">
+                                        </div>    
+                                        <h4>
+                                            깻잎 물부터 레몬 물까지<br />
+                                            다양한 다이어트 물 레시피
+                                        </h4>
+                                        <div class="copy">
+                                            <span>제니스타일</span>
+                                            <span></span>
+                                            <span>포스트</span>
+                                        </div>
+                                    </a>
+                                </article>
+    
+                                <article class="contents1">
+                                    <a href="#">
+                                        <div class="img01">
+                                            <img src="images/m-cont/09.jpg" alt="콘텐츠">
+                                        </div>
+                                        <h4>
+                                            싱글 섀도부터 팔레트까지<br />
+                                            가을에 어울리는 섀도 발색
+                                        </h4>
+                                        <div class="copy">
+                                            <span>틴뷰스타 우솔</span>
+                                            <span></span>
+                                            <span>뷰티TV</span>
+                                        </div>
+                                    </a>
+                                </article>
+    
+                                <article class="contents1">
+                                    <a href="#">
+                                        <div class="img01">
+                                            <img src="images/m-cont/10.jpg" alt="콘텐츠">
+                                        </div>    
+                                        <h4>
+                                            아직 출시 전인데 벌써부터<br />
+                                            탐나는 2019 F/W 신상 가방
+                                        </h4>
+                                        <div class="copy">
+                                            <span>요일 yoil</span>
+                                            <span></span>
+                                            <span>포스트</span>
+                                        </div>
+                                    </a>
+                                </article>
+
+                            </div>
+
+                            <!-- 메인 콘텐츠 바 4 -->
+                            <div class="m-cont">
+                                    
+                                <article class="contents1">
+                                    <a href="#">
+                                        <div class="img01">
+                                            <img src="images/m-cont/11.jpg" alt="콘텐츠">
+                                        </div>
+                                        <h4>
+                                            하루 20분만 투자하면 상체<br />
+                                            쭉쭉 시원한 요가 스트레칭
+                                        </h4>
+                                        <div class="copy">
+                                            <span>요가소년</span>
+                                            <span></span>
+                                            <span>뷰티TV</span>
+                                        </div>
+                                    </a>
+                                </article>
+    
+                                <article class="contents1">
+                                    <a href="#">
+                                        <div class="img01">
+                                            <img src="images/m-cont/12.jpg" alt="콘텐츠">
+                                        </div>
+                                        <h4>
+                                           우아하게 로우번 머리를<br />
+                                           혼자 묶는 방법 알려드림 
+                                        </h4>
+                                        <div class="copy">
+                                            <span>현주쌤</span>
+                                            <span></span>
+                                            <span>뷰티TV</span>
+                                        </div>
+                                    </a>
+                                </article>
+    
+                                <article class="contents1">
+                                    <a href="#">
+                                        <div class="img01">
+                                            <img src="images/m-cont/13.jpg" alt="콘텐츠">
+                                        </div>
+                                        <h4>
+                                            90년대 잇백이 돌아왔다<br />
+                                            어깨에 살짝 걸치는 미니 백
+                                        </h4>
+                                        <div class="copy">
+                                            <span>트렌디스</span>
+                                            <span></span>
+                                            <span>포스트</span>
+                                        </div>
+                                    </a>
+                                </article>
+    
+                                <article class="contents1">
+                                    <a href="#">
+                                        <div class="img01">
+                                            <img src="images/m-cont/14.jpg" alt="콘텐츠">
+                                        </div>    
+                                        <h4>
+                                           최애립 얘로 바꿔야겠다<br />
+                                        </h4>
+                                        <div class="copy">
+                                            <span>은비</span>
+                                            <span></span>
+                                            <span>블로그</span>
+                                        </div>
+                                    </a>
+                                </article>
+
+                            </div>
+
+
+                        </section>
+                        <!-- 쇼핑몰 -->
+                        <section id="shopping" class="fr">
+
+                            <header class="shoppingMall fr">
+                                <h3>쇼핑</h3>
+                                <nav class="snb">
+                                    <a href="#">상품</a>
+                                    <a href="#">쇼핑몰</a>
+                                    <a href="#">MEN</a>
+                                </nav>
+                            </header>
+                            <!-- 상품 페이지 -->
+                            <section class="goodsCorner">
+                                <dl class="catelog fr">
+                                    <dt>목록</dt>
+                                    <dd>
+                                        <a href="#">G마켓</a>
+                                        <span>&#183;</span>
+                                        <a href="#" class="bold">옥션</a>
+                                        <span>&#183;</span>
+                                        <a href="#">11번가</a>
+                                        <span>&#183;</span>
+                                        <a href="#">위메프</a>
+                                        <span>&#183;</span>
+                                        <a href="#" class="bold">티몬</a>
+                                        <span>&#183;</span>
+                                        <a href="#">올리브영</a>
+                                    </dd>
+                                    <!-- 다음 줄 -->
+                                    <dd>
+                                        <a href="#" class="bold">이마트몰</a>
+                                        <span>&#183;</span>
+                                        <a href="#">GS샵</a>
+                                        <span>&#183;</span>
+                                        <a href="#">CJmall</a>
+                                        <span>&#183;</span>
+                                        <a href="#" class="bold">신세계몰</a>
+                                        <span>&#183;</span>
+                                        <a href="#">롯데i몰</a>
+                                        <span>&#183;</span>
+                                        <a href="#">롯데닷컴</a>
+                                    </dd>
+                                </dl>
+                                <div class="turnAPage">
+                                    <button>&#62;</button>
+                                    <button>&#60;</button>
+                                    <p><strong>1</strong>/19</p>
+                                </div>
+                                <ul class="goods">
+                                    <li>
+                                            <a href="#">
+                                                <div class="img1">
+                                                    <img src="images/section/001.jpg" alt="" />
+                                                </div>
+                                                <p>옷사기좋은날~<br />전상품10%쿠폰</p>
+                                            </a>
+                                            <a href="#">
+                                                <div class="img1">
+                                                    <img src="images/section/002.jpg" alt="" />
+                                                </div>
+                                                <p>겟잇뷰티<br />탄산팩20%</p>
+                                            </a>
+                                            <a href="#">
+                                                <div class="img1">
+                                                    <img src="images/section/003.jpg" alt="" />
+                                                </div>
+                                                <p>신세경과 함께<br />예쁘게 운동해</p>
+                                            </a>
+                                    </li>        
+
+                                    <li>
+                                            <a href="#">
+                                                <div class="img1">
+                                                    <img src="images/section/004.jpg" alt="" />
+                                                </div>
+                                                <p>F/W신상50%<br />한정~서둘러!</p>
+                                            </a>
+                                            <a href="#">
+                                                <div class="img1">
+                                                    <img src="images/section/005.jpg" alt="" />
+                                                </div>
+                                                <p>입소문자자한<br />고단백 간식!</p>
+                                            </a>
+                                            <a href="#">
+                                                <div class="img1">
+                                                    <img src="images/section/006.jpg" alt="" />
+                                                </div>
+                                                <p>전상품~세일<br />최대~50%까지</p>
+                                            </a>
+                                    </li>   
+                                    
+                                    <li>
+                                            <a href="#">
+                                                <div class="img1">
+                                                    <img src="images/section/007.jpg" alt="" />
+                                                </div>
+                                                <p>요즘핫한신상~<br />실물은더예뻐~</p>
+                                            </a>
+                                            <a href="#">
+                                                <div class="img1">
+                                                    <img src="images/section/008.jpg" alt="" />
+                                                </div>
+                                                <p>이 귀여운걸~<br />이렇게쓴다고?</p>
+                                            </a>
+                                            <a href="#">
+                                                <div class="img1">
+                                                    <img src="images/section/009.jpg" alt="" />
+                                                </div>
+                                                <p>일상이 연예인<br />예쁜신상 가득</p>
+                                            </a>
+                                    </li>       
+
+                                </ul>
+                            </section>
+
+                            <footer class="sft fr">
+                                <div class="snn fr">
+                                    <div class="hamburger">
+                                        <div class="mini-ham"></div>
+                                    </div>
+                                    <h4>반갑다! 쇼핑뉴스</h4>
+                                    <button><img src="images/section/return2.png" /></button>
+                                </div>
+                                <div class="shoppingNews">
+                                    <a href="#">
+                                        <h5>경기행복샵</h5>
+                                        <p>경기테크노파크와 <strong>중소기업착한소비</strong></p>
+                                        </a>
+                                </div>
+                                <div class="shoppingNews">
+                                    <a href="#">
+                                        <h5>보울보울</h5>
+                                        <p>스노우화이트접시 최대 62%SALE</p>
+                                    </a>
+                                </div>
+                                <div class="shoppingNews">
+                                    <a href="#">
+                                        <h5>북적북적</h5>
+                                        <p>유아동도서 <strong>신상품 10%할인</strong></p>
+                                    </a>
+                                </div>
+                                <div class="shoppingNews">
+                                        <a href="#">
+                                            <h5>세컨아이즈</h5>
+                                            <p>핫한 선글라스 최대55%SALE</p>
+                                        </a>
+                                </div>
+                                <div class="shoppingNews">
+                                        <a href="#">
+                                            <h5>강원마트</h5>
+                                            <p>소비욕구자극하는 강원도특산물모음</p>
+                                        </a>
+                                </div>
+                                <div class="shoppingNews">
+                                        <a href="#">
+                                            <h5>커피앤티</h5>
+                                            <p>스트로베리홍차<strong>1+1 EVENT</strong></p>
+                                        </a>
+                                </div>
+                                <div class="shoppingNews">
+                                        <a href="#">
+                                            <h5>맨드리1</h5>
+                                            <p>러블리 데일리룩 매일20%할인</p>
+                                        </a>
+                                </div>
+                                
+                            </footer>
+                        
+                        </section>
+                    </div>
+
+                    <div class="c-4">
+                        <section id="campaign" class="fr">
+                                
+                            <article class="camCont">
+                                <a href="#" class="cam-l fr">
+                                    <img src="images/banners/cam01.jpg" alt="캠페인" />
+                                </a>
+                                <a href="#" class="cam-r">
+                                    <h3>엔트리 작품 공모전</h3>
+                                    <h4>아름다운 인터넷 세상</h4>
+                                    <p>
+                                        인터넷윤리에 대한 이야기를<br />
+                                        여러분의 작품에 담아주세요
+                                    </p>
+                                </a>
+                            </article>
+
+                            <article class="camCont">
+                                <a href="" class="cam-l fr">
+                                    <img src="images/banners/cam02.jpg" alt="캠페인" />
+                                </a>
+                                <a href="#" class="cam-r">
+                                    <h3>해피빈 더블기부</h3>
+                                    <h4>두 배로 전하는 기부금</h4>
+                                        <p>
+                                            마음을 더할수록<br />
+                                            풍성해지는 추석
+                                        </p>
+                                    </a>    
+                            </article>
+
+                        </section>
+                    
+                    <aside class="subBanner-2">
+                        <a href="#">
+                            <img src="images/banners/sub02.jpg" alt="광고3" />
+                        </a>
+                    </aside>
+                    
+                    </div>
+                    
+                </div>
+                </div>
+                
+                <!-- 푸터 -->
+                <footer id="info" class="fr">
+
+                    <!-- 공지사항 -->
+                    <div class="f-top fr">
+                        <div class="contWrap">
+                            <a class="anounce1">
+                                <h3>공지사항</h3>
+                            </a>
+                            <a class="anounce2">  
+                                <p>네이버'개인정보 처리방침'변경에 대한 안내</p>
+                            </a>
+                            <a class="total">
+                                <p>서비스 전체보기 &#62;</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- 사업자 관련 사항-->
+                    <div class="f-mid">
+                        <div class="contWrap">
+                            <div class="mid-l">
+                                <div class="mid-l-1">
+                                    <h4>Creators</h4>
+                                    <a href="#"><p>크리에이터</p></a>
+                                    <span></span>
+                                    <a href="#"><p>스몰비즈니스</p></a>
+                                </div>
+                                <div class="mid-l-2">
+                                    <h4>partners</h4>
+                                    <a href="#"><p>비즈니스&#183;광고</p></a>
+                                    <span></span>
+                                    <a href="#"><p>스토어 개설</p></a>
+                                    <span></span>
+                                    <a href="#"><p>지역업체 등록</p></a>
+                                </div>
+                                <div class="mid-l-3">
+                                    <h4>Developers</h4>
+                                    <a href="#"><p>네이버 개발자센터</p></a>
+                                    <span></span>
+                                    <a href="#"><p>오픈 API</p></a>
+                                    <span></span>
+                                    <a href="#"><p>오픈소스</p></a>
+                                    <span></span>
+                                    <a href="#"><p>네이버 D2</p></a>
+                                    <span></span>
+                                    <a href="#"><p>네이버 랩스</p></a>
+                                </div>
+                            </div>
+
+                            <div class="mid-r">
+                                <div class="mid-r-1">
+                                    <div class="text-l">
+                                        <h4>웨일 브라우저</h4>
+                                        <a href="#">다운받기</a>
+                                    </div>
+                                    <div class="text-r">
+                                        <a href="#">
+                                            <img src="images/footer/f_icon1.png" alt="" />
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="mid-r-2">
+                                    <div class="text-l">
+                                        <h4>프로젝트 꽃</h4>
+                                        <a href="#">바로가기</a>
+                                    </div>
+                                    <div class="text-r">
+                                        <a href="#">
+                                            <img src="images/footer/f-icon2.png" alt="" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 저작권 -->
+                    <div class="f-bottom">
+                        <div class="contWrap">
+                            <ul class="copyright">
+                                <li>
+                                    <a href=""><h6>회사소개</h6></a>
+                                </li>
+                                <li><span></span></li>
+                                <li>
+                                    <a href=""><h6>인재채용</h6></a>
+                                </li>
+                                <li><span></span></li>
+                                <li>
+                                    <a href=""><h6>제휴제안</h6></a>
+                                </li>
+                                <li><span></span></li>
+                                <li>
+                                    <a href=""><h6>이용약관</h6></a>
+                                </li>
+                                <li><span></span></li>
+                                <li>
+                                    <a href=""><h5>개인정보처리방침</h5></a>
+                                </li>
+                                <li><span></span></li>
+                                <li>
+                                    <a href=""><h6>청소년보호정책</h6></a>
+                                </li>
+                                <li><span></span></li>
+                                <li>
+                                    <a href=""><h6>네이버 정책</h6></a>
+                                </li>
+                                <li><span></span></li>
+                                <li>
+                                    <a href=""><h6>고객센터</h6></a>
+                                </li>
+                                <li><span></span></li>
+                                <li>
+                                    <a href="" ><h5>&copy;NAVER Corp.</h5></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </footer>
+            </div>       
+            
+            
+        </body>
+        
+        
+        
+
+    
+    
+    
+</html>
